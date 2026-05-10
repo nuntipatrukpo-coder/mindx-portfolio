@@ -31,7 +31,7 @@ CANDIDATE_UNIVERSE = {
     "value": [
         "BAC", "WFC", "C", "USB", "CVX",
         "XOM", "GM", "F", "VZ", "T",
-        "MO", "PM", "KO", "PEP", "WBA"
+        "MO", "PM", "KO", "PEP", "BEN"
     ]
 }
 
@@ -68,11 +68,14 @@ def get_prices(tickers: list[str]) -> dict:
 
 
 def get_sp500_price() -> float | None:
-    try:
-        data = yf.download("^GSPC", period="5d", auto_adjust=True, progress=False)
-        return round(float(data["Close"].dropna().iloc[-1]), 2)
-    except Exception:
-        return None
+    for symbol in ("^GSPC", "SPY"):
+        try:
+            data = yf.Ticker(symbol).history(period="5d", auto_adjust=True)
+            if not data.empty:
+                return round(float(data["Close"].dropna().iloc[-1]), 2)
+        except Exception:
+            continue
+    return None
 
 
 def get_news(tickers: list[str], max_per_ticker: int = 3) -> dict[str, list[str]]:
