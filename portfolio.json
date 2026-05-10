@@ -1,0 +1,25 @@
+{
+  "initialized_at": "2026-05-10",
+  "initial_capital": 10000.0,
+  "cash": 10000.0,
+  "positions": [],
+  "history": [
+    {
+      "date": "2026-05-10",
+      "total_value": 10000.0,
+      "sp500_baseline": 10000.0,
+      "sp500_price": null,
+      "cash": 10000.0,
+      "actions": [],
+      "reasoning": "Portfolio initialized. Awaiting first analysis run."
+    }
+  ],
+  "allocations": {
+    "growth": 0.50,
+    "quality": 0.30,
+    "value": 0.10,
+    "cash": 0.10
+  },
+  "max_positions": 10,
+  "last_updated": "2026-05-10T00:00:00Z"
+}
