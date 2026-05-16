@@ -349,8 +349,8 @@ def main():
         "actions": executed
     }
 
-    if sp500_price and portfolio["history"]:
-        first_sp500 = portfolio["history"][0].get("sp500_price") or sp500_price
+    first_sp500 = next((h["sp500_price"] for h in portfolio["history"] if h.get("sp500_price")), None)
+    if sp500_price and first_sp500:
         history_entry["sp500_baseline"] = round(10000 * sp500_price / first_sp500, 2)
     else:
         history_entry["sp500_baseline"] = 10000.0
