@@ -1,8 +1,8 @@
-name: Weekly Portfolio Analysis
+name: Daily Portfolio Analysis
 
 on:
   schedule:
-    - cron: '0 2 * * 1'   # Monday 09:00 Bangkok (UTC+7)
+    - cron: "0 22 * * *"   # 05:00 Bangkok (UTC+7) every day
   workflow_dispatch:        # allow manual run from GitHub UI
 
 jobs:
@@ -18,7 +18,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: "3.12"
 
       - name: Install dependencies
         run: pip install -r requirements.txt
@@ -33,5 +33,5 @@ jobs:
           git config user.name  "MIND-X Bot"
           git config user.email "mindx-bot@users.noreply.github.com"
           git add portfolio.json
-          git diff --staged --quiet || git commit -m "📈 Weekly portfolio update $(date +'%Y-%m-%d')"
+          git diff --staged --quiet || git commit -m "📈 Daily portfolio update $(date +'%Y-%m-%d')"
           git push
