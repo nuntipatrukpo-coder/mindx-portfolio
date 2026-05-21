@@ -471,6 +471,87 @@
         }
       ],
       "sp500_baseline": 9957.65
+    },
+    {
+      "date": "2026-05-21",
+      "total_value": 10142.07,
+      "sp500_price": 7432.97,
+      "cash": 2.01,
+      "positions_count": 7,
+      "weekly_outlook": "Tech mega-caps maintain momentum with AI narrative intact; growth allocation slightly underweight but quality adds V to diversify into fintech strength. Banking stocks remain attractive on valuation; energy sector weakness supports avoiding CVX/XOM. Expect consolidation as Fed signals patience with rates.",
+      "actions": [
+        {
+          "action": "HOLD",
+          "ticker": "NVDA",
+          "shares": 10,
+          "category": "growth",
+          "price": 223.47,
+          "reasoning": "Strong fundamentals with PE=19.2, RevGrowth=+73.2%, EPS_growth=+95.6%. Near 52-week highs (-5.5%) suggests momentum; maintain position.",
+          "executed_price": 223.47,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "META",
+          "shares": 4,
+          "category": "growth",
+          "price": 605.06,
+          "reasoning": "Attractive PE=16.7 with solid EPS_growth=+62.4%. Currently -24% from high provides room for recovery; hold through potential AI monetization catalysts.",
+          "executed_price": 605.06,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "GOOGL",
+          "shares": 3,
+          "category": "growth",
+          "price": 388.91,
+          "reasoning": "Strong EPS_growth=+82% despite moderate PE=26.9. Hold for AI and cloud revenue acceleration.",
+          "executed_price": 388.91,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "MSFT",
+          "shares": 7,
+          "category": "quality",
+          "price": 421.06,
+          "reasoning": "Stable quality hold with PE=21.8 and consistent EPS_growth=+23.4%. Leadership in AI infrastructure supports long-term thesis.",
+          "executed_price": 421.06,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "LLY",
+          "shares": 1,
+          "category": "quality",
+          "price": 1018.87,
+          "reasoning": "Exceptional EPS_growth=+169.9% with healthy RevGrowth=+55.5%. Already profitable +7.4%; maintain exposure to biotech strength.",
+          "executed_price": 1018.87,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "C",
+          "shares": 2,
+          "category": "value",
+          "price": 124.82,
+          "reasoning": "Value play with PE=10.0 and strong EPS_growth=+56.1%. Financial sector stabilizing; hold for dividend potential.",
+          "executed_price": 124.82,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "BAC",
+          "shares": 2,
+          "category": "value",
+          "price": 51.23,
+          "reasoning": "Cheap valuation at PE=10.2 with EPS_growth=+24.4%. Rising rate environment supports bank profitability; maintain.",
+          "executed_price": 51.23,
+          "executed_shares": 0
+        }
+      ],
+      "sp500_baseline": 9984.85
     }
   ],
   "allocations": {
@@ -480,5 +561,5 @@
     "cash": 0.1
   },
   "max_positions": 10,
-  "last_updated": "2026-05-20T16:54:36.713208+00:00"
+  "last_updated": "2026-05-21T10:54:07.021237+00:00"
 }
