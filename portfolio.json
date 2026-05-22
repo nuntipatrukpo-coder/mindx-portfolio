@@ -1,7 +1,7 @@
 {
   "initialized_at": "2026-05-10",
   "initial_capital": 10000.0,
-  "cash": 2.01,
+  "cash": 91.15,
   "positions": [
     {
       "ticker": "NVDA",
@@ -20,15 +20,6 @@
       "bought_at": "2026-05-10",
       "reasoning": "Strong EPS growth of +62.4% with low PE of 16.8 offers growth at reasonable valuation; -23.4% from highs provides recovery upside on AI capex momentum.",
       "current_price": 614.23
-    },
-    {
-      "ticker": "GOOGL",
-      "shares": 3,
-      "avg_cost": 400.8,
-      "category": "growth",
-      "bought_at": "2026-05-10",
-      "reasoning": "Solid EPS growth of +82.0% with modest revenue growth provides balanced profile; near 52w highs confirm investor confidence despite higher PE of 27.7.",
-      "current_price": 396.78
     },
     {
       "ticker": "MSFT",
@@ -65,6 +56,14 @@
       "bought_at": "2026-05-14",
       "reasoning": "Low PE=9.9 with EPS growth +24.4% and RevGrowth +8.1% represent value opportunity. Builds value allocation toward 10% target weight with defensive characteristics.",
       "current_price": 49.77
+    },
+    {
+      "ticker": "AMZN",
+      "shares": 4,
+      "avg_cost": 268.46,
+      "category": "growth",
+      "bought_at": "2026-05-22",
+      "reasoning": "Strong EPS growth of 74.8% with reasonable PE of 27.3 and only 3.6% below 52-week high. Capital from GOOGL sale enables addition to underweighted growth allocation."
     }
   ],
   "history": [
@@ -552,6 +551,97 @@
         }
       ],
       "sp500_baseline": 9984.85
+    },
+    {
+      "date": "2026-05-22",
+      "total_value": 10118.31,
+      "sp500_price": 7445.72,
+      "cash": 91.15,
+      "positions_count": 7,
+      "weekly_outlook": "AI-driven growth continues supporting mega-cap tech strength, particularly NVDA and META with exceptional earnings expansion. Quality rotation opportunity emerging through V and payment processors as interest-rate environment stabilizes. Value sector remains stable with financials showing solid EPS growth despite economic uncertainty.",
+      "actions": [
+        {
+          "action": "HOLD",
+          "ticker": "NVDA",
+          "shares": 10,
+          "category": "growth",
+          "price": 219.51,
+          "reasoning": "Exceptional fundamentals with 85.2% revenue growth and 214.5% EPS growth justify premium valuation. Only 7.2% below 52-week high indicates strong momentum; maintain position.",
+          "executed_price": 219.51,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "META",
+          "shares": 4,
+          "category": "growth",
+          "price": 607.38,
+          "reasoning": "Strong growth metrics (33.1% revenue, 62.4% EPS) with attractive PE of 16.9. Down 23.7% from high presents value accumulation opportunity; hold for recovery.",
+          "executed_price": 607.38,
+          "executed_shares": 0
+        },
+        {
+          "action": "SELL",
+          "ticker": "GOOGL",
+          "shares": 3,
+          "category": "growth",
+          "price": 387.66,
+          "reasoning": "Highest PE ratio at 26.8 among growth peers with slowest revenue growth of 21.8%. Underperforming relative to allocation drift; reallocate capital to stronger growth.",
+          "executed_price": 387.66,
+          "executed_shares": 3
+        },
+        {
+          "action": "BUY",
+          "ticker": "AMZN",
+          "shares": 4,
+          "category": "growth",
+          "price": 268.46,
+          "reasoning": "Strong EPS growth of 74.8% with reasonable PE of 27.3 and only 3.6% below 52-week high. Capital from GOOGL sale enables addition to underweighted growth allocation.",
+          "executed_price": 268.46,
+          "executed_shares": 4
+        },
+        {
+          "action": "HOLD",
+          "ticker": "MSFT",
+          "shares": 7,
+          "category": "quality",
+          "price": 419.09,
+          "reasoning": "Solid quality metrics (PE 21.7, 23.4% EPS growth) with consistent performance. Core quality holding aligns with target allocation.",
+          "executed_price": 419.09,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "LLY",
+          "shares": 1,
+          "category": "quality",
+          "price": 1041.65,
+          "reasoning": "Outstanding fundamentals with 169.9% EPS growth and 55.5% revenue growth. Strong uptrend (+9.8% P&L) justifies premium PE; maintain quality anchor.",
+          "executed_price": 1041.65,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "C",
+          "shares": 2,
+          "category": "value",
+          "price": 125.22,
+          "reasoning": "Exceptional value with PE 10.0 and 56.1% EPS growth. Unique combination of value metrics and earnings momentum justifies hold.",
+          "executed_price": 125.22,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "BAC",
+          "shares": 2,
+          "category": "value",
+          "price": 51.49,
+          "reasoning": "Attractive PE of 10.2 with solid 24.4% EPS growth maintains value position. Strong fundamentals support allocation.",
+          "executed_price": 51.49,
+          "executed_shares": 0
+        }
+      ],
+      "sp500_baseline": 10001.97
     }
   ],
   "allocations": {
@@ -561,5 +651,5 @@
     "cash": 0.1
   },
   "max_positions": 10,
-  "last_updated": "2026-05-21T10:54:07.021237+00:00"
+  "last_updated": "2026-05-22T10:30:26.305693+00:00"
 }
