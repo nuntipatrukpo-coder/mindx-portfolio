@@ -1,7 +1,7 @@
 {
   "initialized_at": "2026-05-10",
   "initial_capital": 10000.0,
-  "cash": 91.15,
+  "cash": 36.32,
   "positions": [
     {
       "ticker": "NVDA",
@@ -64,6 +64,14 @@
       "category": "growth",
       "bought_at": "2026-05-22",
       "reasoning": "Strong EPS growth of 74.8% with reasonable PE of 27.3 and only 3.6% below 52-week high. Capital from GOOGL sale enables addition to underweighted growth allocation."
+    },
+    {
+      "ticker": "USB",
+      "shares": 1,
+      "avg_cost": 54.83,
+      "category": "value",
+      "bought_at": "2026-05-25",
+      "reasoning": "Ultra-low PE of 9.7 with 14.8% EPS growth provides defensive value exposure; 10.4% below highs offers margin of safety."
     }
   ],
   "history": [
@@ -794,6 +802,97 @@
         }
       ],
       "sp500_baseline": 10039.25
+    },
+    {
+      "date": "2026-05-25",
+      "total_value": 10099.54,
+      "sp500_price": 7473.47,
+      "cash": 36.32,
+      "positions_count": 8,
+      "weekly_outlook": "Portfolio remains well-positioned across growth (NVDA/META strength), quality (LLY momentum, MSFT stability), and value (financials holding). Adding V and USB rebalances toward target allocations while capitalizing on recent drawdowns in quality and value sectors without over-extending.",
+      "actions": [
+        {
+          "action": "HOLD",
+          "ticker": "NVDA",
+          "shares": 10,
+          "category": "growth",
+          "price": 215.33,
+          "reasoning": "Exceptional EPS growth of +214.5% and revenue growth of +85.2% justify strong valuation; only 9% below 52w high indicates healthy momentum.",
+          "executed_price": 215.33,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "META",
+          "shares": 4,
+          "category": "growth",
+          "price": 610.26,
+          "reasoning": "Attractive PE of 16.9 with solid EPS growth of +62.4%; 23% drawdown from high presents accumulation opportunity but current position sufficient.",
+          "executed_price": 610.26,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "MSFT",
+          "shares": 7,
+          "category": "quality",
+          "price": 418.57,
+          "reasoning": "Quality fundamentals with 21.6 PE and consistent growth; 24% drawdown provides value entry but established position maintains allocation.",
+          "executed_price": 418.57,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "LLY",
+          "shares": 1,
+          "category": "quality",
+          "price": 1065.0,
+          "reasoning": "Outstanding EPS growth of +169.9% and revenue growth of +55.5% justify premium valuation; strong performer with 12.3% gain demonstrates conviction.",
+          "executed_price": 1065.0,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "C",
+          "shares": 2,
+          "category": "value",
+          "price": 125.09,
+          "reasoning": "Solid value play with PE of 10.0 and strong EPS growth of +56.1%; maintains value allocation exposure.",
+          "executed_price": 125.09,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "BAC",
+          "shares": 2,
+          "category": "value",
+          "price": 51.8,
+          "reasoning": "Low PE of 10.3 with 24.4% EPS growth offers attractive value; 3.9% gain confirms thesis.",
+          "executed_price": 51.8,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "AMZN",
+          "shares": 4,
+          "category": "growth",
+          "price": 266.32,
+          "reasoning": "Growth with 74.8% EPS expansion at reasonable 27 PE; only 4.4% below 52w high indicates minimal drawdown risk.",
+          "executed_price": 266.32,
+          "executed_shares": 0
+        },
+        {
+          "action": "BUY",
+          "ticker": "USB",
+          "shares": 4,
+          "category": "value",
+          "price": 54.83,
+          "reasoning": "Ultra-low PE of 9.7 with 14.8% EPS growth provides defensive value exposure; 10.4% below highs offers margin of safety.",
+          "executed_price": 54.83,
+          "executed_shares": 1
+        }
+      ],
+      "sp500_baseline": 10039.25
     }
   ],
   "allocations": {
@@ -803,5 +902,5 @@
     "cash": 0.1
   },
   "max_positions": 10,
-  "last_updated": "2026-05-24T08:03:20.200644+00:00"
+  "last_updated": "2026-05-25T12:03:16.712565+00:00"
 }
