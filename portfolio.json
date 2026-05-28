@@ -984,6 +984,97 @@
         }
       ],
       "sp500_baseline": 10100.57
+    },
+    {
+      "date": "2026-05-28",
+      "total_value": 10170.04,
+      "sp500_price": 7520.36,
+      "cash": 36.32,
+      "positions_count": 8,
+      "weekly_outlook": "Portfolio is well-positioned with strong fundamental support across growth (NVDA, META leading) and quality tiers. Adding Visa strengthens quality allocation while maintaining growth exposure. Market dynamics favor quality and growth with solid earnings growth; value positions provide stability and downside protection.",
+      "actions": [
+        {
+          "action": "HOLD",
+          "ticker": "NVDA",
+          "shares": 10,
+          "category": "growth",
+          "price": 212.6,
+          "reasoning": "Exceptional fundamentals (85% revenue growth, 214% EPS growth) with PE=16.8 justifies hold despite -1.2% loss. Only -10.1% from 52w high indicates strong positioning.",
+          "executed_price": 212.6,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "META",
+          "shares": 4,
+          "category": "growth",
+          "price": 635.26,
+          "reasoning": "Strong momentum with +4.2% gain and solid 62% EPS growth. PE=17.6 is reasonable for growth profile. -20.2% from high offers recovery upside.",
+          "executed_price": 635.26,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "MSFT",
+          "shares": 7,
+          "category": "quality",
+          "price": 412.67,
+          "reasoning": "Quality core holding with consistent 23% EPS growth. Minor -0.6% loss is immaterial; -25.7% from high suggests accumulation opportunity at current levels.",
+          "executed_price": 412.67,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "LLY",
+          "shares": 1,
+          "category": "quality",
+          "price": 1082.92,
+          "reasoning": "Outstanding performer with +14.2% gain and exceptional 170% EPS growth. Quality anchor position near 52w high should be maintained.",
+          "executed_price": 1082.92,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "C",
+          "shares": 2,
+          "category": "value",
+          "price": 125.39,
+          "reasoning": "Value position with attractive PE=10.0 and strong 56% EPS growth. Minimal -0.1% loss with solid fundamentals warrants hold.",
+          "executed_price": 125.39,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "BAC",
+          "shares": 2,
+          "category": "value",
+          "price": 51.1,
+          "reasoning": "Value core with PE=10.1 and +2.5% gain. Financial fundamentals solid; positioned well within value allocation.",
+          "executed_price": 51.1,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "AMZN",
+          "shares": 4,
+          "category": "growth",
+          "price": 271.85,
+          "reasoning": "Growth position with +1.3% gain and 75% EPS growth. Only -2.4% from 52w high indicates strength; balanced valuation at PE=27.6.",
+          "executed_price": 271.85,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "USB",
+          "shares": 1,
+          "category": "value",
+          "price": 54.69,
+          "reasoning": "Value anchor with attractive PE=9.7. Minimal -0.3% loss immaterial; completes value diversification at appropriate allocation weight.",
+          "executed_price": 54.69,
+          "executed_shares": 0
+        }
+      ],
+      "sp500_baseline": 10102.24
     }
   ],
   "allocations": {
@@ -993,5 +1084,5 @@
     "cash": 0.1
   },
   "max_positions": 10,
-  "last_updated": "2026-05-27T11:50:41.797419+00:00"
+  "last_updated": "2026-05-28T11:53:38.927789+00:00"
 }
