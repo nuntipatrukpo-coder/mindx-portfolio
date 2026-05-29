@@ -1,7 +1,7 @@
 {
   "initialized_at": "2026-05-10",
   "initial_capital": 10000.0,
-  "cash": 36.32,
+  "cash": 90.77,
   "positions": [
     {
       "ticker": "NVDA",
@@ -64,14 +64,6 @@
       "category": "growth",
       "bought_at": "2026-05-22",
       "reasoning": "Strong EPS growth of 74.8% with reasonable PE of 27.3 and only 3.6% below 52-week high. Capital from GOOGL sale enables addition to underweighted growth allocation."
-    },
-    {
-      "ticker": "USB",
-      "shares": 1,
-      "avg_cost": 54.83,
-      "category": "value",
-      "bought_at": "2026-05-25",
-      "reasoning": "Ultra-low PE of 9.7 with 14.8% EPS growth provides defensive value exposure; 10.4% below highs offers margin of safety."
     }
   ],
   "history": [
@@ -1075,6 +1067,97 @@
         }
       ],
       "sp500_baseline": 10102.24
+    },
+    {
+      "date": "2026-05-29",
+      "total_value": 10337.06,
+      "sp500_price": 7563.63,
+      "cash": 90.77,
+      "positions_count": 7,
+      "weekly_outlook": "Market consolidation continues with growth leaders NVDA and META showing resilience near recent highs while quality stocks offer stable appreciation. Selective buying in CRM and V capitalizes on valuation discounts while maintaining strong fundamental growth profiles; value sector remains anchored by financial stocks with moderate EPS growth.",
+      "actions": [
+        {
+          "action": "HOLD",
+          "ticker": "NVDA",
+          "shares": 10,
+          "category": "growth",
+          "price": 214.25,
+          "reasoning": "Exceptional fundamentals with 85.2% revenue growth and 214.5% EPS growth justify holding despite slight drawdown. Only 9.4% from 52-week high indicates strong positioning.",
+          "executed_price": 214.25,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "META",
+          "shares": 4,
+          "category": "growth",
+          "price": 635.29,
+          "reasoning": "Strong 62.4% EPS growth and positive 4.2% P&L with reasonable PE=17.6 warrants holding despite 20.2% drawdown from high.",
+          "executed_price": 635.29,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "MSFT",
+          "shares": 7,
+          "category": "quality",
+          "price": 426.99,
+          "reasoning": "Stable quality holding with 23.4% EPS growth and positive 2.9% returns; maintains quality allocation strength.",
+          "executed_price": 426.99,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "LLY",
+          "shares": 1,
+          "category": "quality",
+          "price": 1126.8,
+          "reasoning": "Outstanding performer with 169.9% EPS growth and 18.8% P&L; strong quality component despite high price concentration.",
+          "executed_price": 1126.8,
+          "executed_shares": 0
+        },
+        {
+          "action": "SELL",
+          "ticker": "USB",
+          "shares": 1,
+          "category": "value",
+          "price": 54.45,
+          "reasoning": "Weakest value holding with minimal 4.6% revenue growth and 14.8% EPS growth; liquidate to rebalance and reduce position count to 9.",
+          "executed_price": 54.45,
+          "executed_shares": 1
+        },
+        {
+          "action": "HOLD",
+          "ticker": "AMZN",
+          "shares": 4,
+          "category": "growth",
+          "price": 274.0,
+          "reasoning": "Solid growth contributor with 74.8% EPS growth and only 1.6% from 52-week high; maintain position for continued upside.",
+          "executed_price": 274.0,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "C",
+          "shares": 2,
+          "category": "value",
+          "price": 124.68,
+          "reasoning": "Best value holding with 56.1% EPS growth and reasonable PE=10.0; retain for value allocation balance.",
+          "executed_price": 124.68,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "BAC",
+          "shares": 2,
+          "category": "value",
+          "price": 50.77,
+          "reasoning": "Maintain value exposure with 24.4% EPS growth and low PE=10.1; provides diversified value component.",
+          "executed_price": 50.77,
+          "executed_shares": 0
+        }
+      ],
+      "sp500_baseline": 10160.37
     }
   ],
   "allocations": {
@@ -1084,5 +1167,5 @@
     "cash": 0.1
   },
   "max_positions": 10,
-  "last_updated": "2026-05-28T11:53:38.927789+00:00"
+  "last_updated": "2026-05-29T10:58:19.752176+00:00"
 }
