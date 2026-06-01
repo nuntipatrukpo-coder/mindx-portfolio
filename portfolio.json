@@ -1410,6 +1410,87 @@
         }
       ],
       "sp500_baseline": 10182.44
+    },
+    {
+      "date": "2026-06-02",
+      "total_value": 10467.01,
+      "sp500_price": 7599.96,
+      "cash": 2.87,
+      "positions_count": 7,
+      "weekly_outlook": "Portfolio is well-positioned with strong growth fundamentals (NVDA, META) and quality picks (MSFT, LLY) showing resilience. Adding value exposure through BAC and quality through V improves diversification while maintaining target allocations. Tech strength and financial sector recovery support near-term momentum.",
+      "actions": [
+        {
+          "action": "HOLD",
+          "ticker": "NVDA",
+          "shares": 10,
+          "category": "growth",
+          "price": 224.36,
+          "reasoning": "Exceptional EPS growth of +214.5% and revenue growth of +85.2% justify position. Only -5.1% from 52w high indicates strength; maintain core growth holding.",
+          "executed_price": 224.36,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "META",
+          "shares": 4,
+          "category": "growth",
+          "price": 600.47,
+          "reasoning": "Strong EPS growth of +62.4% with reasonable PE of 16.6 provides good value despite -24.6% from high. Position is underweight relative to growth allocation.",
+          "executed_price": 600.47,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "MSFT",
+          "shares": 7,
+          "category": "quality",
+          "price": 460.52,
+          "reasoning": "Solid fundamentals with +23.4% EPS growth and consistent revenue growth of +18.3%. Strong position with +10.9% unrealized gain supports quality allocation.",
+          "executed_price": 460.52,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "LLY",
+          "shares": 1,
+          "category": "quality",
+          "price": 1082.2,
+          "reasoning": "Exceptional growth story with +169.9% EPS growth and +55.5% revenue growth. Premium valuation justified by fundamentals; +14.1% gain is earned.",
+          "executed_price": 1082.2,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "C",
+          "shares": 2,
+          "category": "value",
+          "price": 129.09,
+          "reasoning": "Low PE of 10.3 with strong EPS growth of +56.1% offers value characteristics. Maintain position as value anchor with modest +2.8% gain.",
+          "executed_price": 129.09,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "AMZN",
+          "shares": 4,
+          "category": "growth",
+          "price": 261.26,
+          "reasoning": "EPS growth of +74.8% supports growth category despite -2.7% P&L. Slight underperformance is temporary; fundamentals remain strong.",
+          "executed_price": 261.26,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "CRM",
+          "shares": 1,
+          "category": "growth",
+          "price": 209.6,
+          "reasoning": "Attractive PE of 13.5 with solid +52.2% EPS growth offers growth at reasonable valuation. +9.7% gain demonstrates quality execution.",
+          "executed_price": 209.6,
+          "executed_shares": 0
+        }
+      ],
+      "sp500_baseline": 10209.17
     }
   ],
   "allocations": {
@@ -1419,5 +1500,5 @@
     "cash": 0.1
   },
   "max_positions": 10,
-  "last_updated": "2026-05-31T23:05:42.221815+00:00"
+  "last_updated": "2026-06-01T23:38:53.779027+00:00"
 }
