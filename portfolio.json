@@ -1,7 +1,7 @@
 {
   "initialized_at": "2026-05-10",
   "initial_capital": 10000.0,
-  "cash": 101.63,
+  "cash": 96.47,
   "positions": [
     {
       "ticker": "NVDA",
@@ -57,20 +57,20 @@
       "reasoning": "Quality stock with attractive PE=21.0, EPS growth +35.5%, and reasonable valuation. Diversifies quality allocation beyond tech concentration."
     },
     {
-      "ticker": "BAC",
-      "shares": 3,
-      "avg_cost": 54.17,
-      "category": "value",
-      "bought_at": "2026-06-05",
-      "reasoning": "Excellent value with PE of 10.7 and +24.4% EPS growth; increases value exposure toward 10% target allocation."
-    },
-    {
       "ticker": "CRM",
       "shares": 1,
       "avg_cost": 185.66,
       "category": "growth",
       "bought_at": "2026-06-06",
       "reasoning": "Attractive growth candidate at 32.9% from 52-week high with low PE=11.9 and +52.2% EPS growth. Significant upside potential with margin of safety."
+    },
+    {
+      "ticker": "USB",
+      "shares": 3,
+      "avg_cost": 55.35,
+      "category": "value",
+      "bought_at": "2026-06-09",
+      "reasoning": "Superior value at PE=9.8 with 14.8% EPS growth. Better risk/reward than BAC in banking sector rotation."
     }
   ],
   "history": [
@@ -2045,6 +2045,107 @@
         }
       ],
       "sp500_baseline": 9918.72
+    },
+    {
+      "date": "2026-06-09",
+      "total_value": 9907.87,
+      "sp500_price": 7405.73,
+      "cash": 96.47,
+      "positions_count": 8,
+      "weekly_outlook": "Markets showing selective strength in AI/cloud infrastructure (NVDA, GOOGL) and healthcare (LLY) while financials face normalization pressures. Maintaining overweight in high-growth-at-reasonable-valuation positions while rotating within value sector toward USB's superior metrics. Fed policy clarity expected to drive continued sector rotation.",
+      "actions": [
+        {
+          "action": "HOLD",
+          "ticker": "NVDA",
+          "shares": 12,
+          "category": "growth",
+          "price": 208.64,
+          "reasoning": "Exceptional fundamentals (85.2% revenue growth, 214.5% EPS growth) with PE=16.5 justify position. Only 11.8% from 52w high indicates strength despite recent pullback.",
+          "executed_price": 208.64,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "META",
+          "shares": 4,
+          "category": "growth",
+          "price": 585.39,
+          "reasoning": "Strong growth metrics (33.1% revenue, 62.4% EPS) with attractive PE=16.2. Down 26.5% from high presents value opportunity; maintain position.",
+          "executed_price": 585.39,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "MSFT",
+          "shares": 7,
+          "category": "quality",
+          "price": 411.74,
+          "reasoning": "Quality dividend stock with consistent 18.3% revenue and 23.4% EPS growth at reasonable PE=21.3. Core holding for stability.",
+          "executed_price": 411.74,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "LLY",
+          "shares": 1,
+          "category": "quality",
+          "price": 1149.15,
+          "reasoning": "Outstanding performance (+21.2% P&L) with pharma sector strength. 55.5% revenue and 169.9% EPS growth justify premium PE=25.8.",
+          "executed_price": 1149.15,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "C",
+          "shares": 2,
+          "category": "value",
+          "price": 133.28,
+          "reasoning": "Excellent value with PE=10.6 and 56.1% EPS growth. Strong fundamentals with positive 6.2% P&L indicate undervaluation.",
+          "executed_price": 133.28,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "V",
+          "shares": 1,
+          "category": "quality",
+          "price": 319.67,
+          "reasoning": "Quality payment processor with 17.1% revenue growth, 35.5% EPS growth, and PE=21.5. Steady performer in portfolio.",
+          "executed_price": 319.67,
+          "executed_shares": 0
+        },
+        {
+          "action": "SELL",
+          "ticker": "BAC",
+          "shares": 3,
+          "category": "value",
+          "price": 53.63,
+          "reasoning": "Weakest value play with only 8.1% revenue growth and slowing EPS. Replace with higher-growth USB or WFC for better quality.",
+          "executed_price": 53.63,
+          "executed_shares": 3
+        },
+        {
+          "action": "BUY",
+          "ticker": "USB",
+          "shares": 3,
+          "category": "value",
+          "price": 55.35,
+          "reasoning": "Superior value at PE=9.8 with 14.8% EPS growth. Better risk/reward than BAC in banking sector rotation.",
+          "executed_price": 55.35,
+          "executed_shares": 3
+        },
+        {
+          "action": "HOLD",
+          "ticker": "CRM",
+          "shares": 1,
+          "category": "growth",
+          "price": 182.55,
+          "reasoning": "Attractive PE=11.7 with 52.2% EPS growth offers growth at value price. Down 34% from high presents dip-buy opportunity; maintain.",
+          "executed_price": 182.55,
+          "executed_shares": 0
+        }
+      ],
+      "sp500_baseline": 9948.26
     }
   ],
   "allocations": {
@@ -2054,5 +2155,5 @@
     "cash": 0.1
   },
   "max_positions": 10,
-  "last_updated": "2026-06-07T23:11:48.334918+00:00"
+  "last_updated": "2026-06-08T23:15:39.512332+00:00"
 }
