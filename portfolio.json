@@ -1,7 +1,7 @@
 {
   "initialized_at": "2026-05-10",
   "initial_capital": 10000.0,
-  "cash": 96.47,
+  "cash": 271.82,
   "positions": [
     {
       "ticker": "NVDA",
@@ -55,14 +55,6 @@
       "category": "quality",
       "bought_at": "2026-06-04",
       "reasoning": "Quality stock with attractive PE=21.0, EPS growth +35.5%, and reasonable valuation. Diversifies quality allocation beyond tech concentration."
-    },
-    {
-      "ticker": "CRM",
-      "shares": 1,
-      "avg_cost": 185.66,
-      "category": "growth",
-      "bought_at": "2026-06-06",
-      "reasoning": "Attractive growth candidate at 32.9% from 52-week high with low PE=11.9 and +52.2% EPS growth. Significant upside potential with margin of safety."
     },
     {
       "ticker": "USB",
@@ -2146,6 +2138,97 @@
         }
       ],
       "sp500_baseline": 9948.26
+    },
+    {
+      "date": "2026-06-10",
+      "total_value": 9839.58,
+      "sp500_price": 7386.65,
+      "cash": 271.82,
+      "positions_count": 7,
+      "weekly_outlook": "Growth stocks remain attractive with strong fundamentals, particularly NVDA and META showing exceptional earnings growth despite recent pullbacks. Value opportunities exist in quality financials, but energy sector weakness (CVX/XOM declining EPS) warrants caution. Rebalance toward proven growth and quality leaders while lightening weaker growth positions.",
+      "actions": [
+        {
+          "action": "HOLD",
+          "ticker": "NVDA",
+          "shares": 12,
+          "category": "growth",
+          "price": 208.19,
+          "reasoning": "Exceptional fundamentals (85.2% RevGrowth, 214.5% EPS_growth, PE=16.4) justify hold despite -12% from high; core growth position.",
+          "executed_price": 208.19,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "META",
+          "shares": 4,
+          "category": "growth",
+          "price": 584.59,
+          "reasoning": "Strong growth metrics (PE=16.2, EPS_growth=62.4%) with reasonable valuation; -26.6% from high offers upside.",
+          "executed_price": 584.59,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "LLY",
+          "shares": 1,
+          "category": "quality",
+          "price": 1144.68,
+          "reasoning": "Outstanding fundamentals (169.9% EPS_growth, 55.5% RevGrowth) with +20.7% position gain; maintain quality anchor.",
+          "executed_price": 1144.68,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "MSFT",
+          "shares": 7,
+          "category": "quality",
+          "price": 403.41,
+          "reasoning": "Stable quality blue-chip with consistent growth (23.4% EPS_growth); maintain core position.",
+          "executed_price": 403.41,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "V",
+          "shares": 1,
+          "category": "quality",
+          "price": 325.05,
+          "reasoning": "Quality fintech with strong EPS_growth (35.5%) and reasonable PE=21.9; hold for portfolio stability.",
+          "executed_price": 325.05,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "C",
+          "shares": 2,
+          "category": "value",
+          "price": 134.73,
+          "reasoning": "Value play with strong fundamentals (56.1% EPS_growth) and +7.3% gains; maintain value exposure.",
+          "executed_price": 134.73,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "USB",
+          "shares": 3,
+          "category": "value",
+          "price": 56.02,
+          "reasoning": "Low PE=9.9 value position; maintain diversification in banking sector.",
+          "executed_price": 56.02,
+          "executed_shares": 0
+        },
+        {
+          "action": "SELL",
+          "ticker": "CRM",
+          "shares": 1,
+          "category": "growth",
+          "price": 175.35,
+          "reasoning": "Weakest growth fundamentals (13.3% RevGrowth, 11.3 PE) and -5.6% loss; remove to free capital for stronger opportunities.",
+          "executed_price": 175.35,
+          "executed_shares": 1
+        }
+      ],
+      "sp500_baseline": 9922.62
     }
   ],
   "allocations": {
@@ -2155,5 +2238,5 @@
     "cash": 0.1
   },
   "max_positions": 10,
-  "last_updated": "2026-06-08T23:15:39.512332+00:00"
+  "last_updated": "2026-06-09T23:20:57.985694+00:00"
 }
