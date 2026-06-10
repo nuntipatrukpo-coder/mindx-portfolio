@@ -1,7 +1,7 @@
 {
   "initialized_at": "2026-05-10",
   "initial_capital": 10000.0,
-  "cash": 271.82,
+  "cash": 100.9,
   "positions": [
     {
       "ticker": "NVDA",
@@ -63,6 +63,14 @@
       "category": "value",
       "bought_at": "2026-06-09",
       "reasoning": "Superior value at PE=9.8 with 14.8% EPS growth. Better risk/reward than BAC in banking sector rotation."
+    },
+    {
+      "ticker": "CRM",
+      "shares": 1,
+      "avg_cost": 170.92,
+      "category": "growth",
+      "bought_at": "2026-06-11",
+      "reasoning": "Excellent growth candidate with lowest PE 11.0 among growth stocks, solid EPS growth +52.2%, and deeply discounted -38.3% from 52w high presents contrarian value."
     }
   ],
   "history": [
@@ -2229,6 +2237,97 @@
         }
       ],
       "sp500_baseline": 9922.62
+    },
+    {
+      "date": "2026-06-11",
+      "total_value": 9638.82,
+      "sp500_price": 7266.99,
+      "cash": 100.9,
+      "positions_count": 8,
+      "weekly_outlook": "Portfolio remains well-positioned with strong growth fundamentals in NVDA and META offset by quality upside in LLY. Adding CRM provides growth exposure at attractive valuation while maintaining target allocations and cash reserves above minimum threshold.",
+      "actions": [
+        {
+          "action": "HOLD",
+          "ticker": "NVDA",
+          "shares": 12,
+          "category": "growth",
+          "price": 200.42,
+          "reasoning": "Exceptional EPS growth of +214.5% with strong revenue growth of +85.2% justifies position despite -6.8% drawdown. PE of 15.7 is attractive for growth profile.",
+          "executed_price": 200.42,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "META",
+          "shares": 4,
+          "category": "growth",
+          "price": 570.98,
+          "reasoning": "Strong fundamentals with PE 15.8 and EPS growth +62.4% support holding. Down -28.3% from 52w high presents accumulation opportunity but current cash constraints limit additions.",
+          "executed_price": 570.98,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "MSFT",
+          "shares": 7,
+          "category": "quality",
+          "price": 397.36,
+          "reasoning": "Solid quality metrics with PE 20.5, consistent EPS growth of +23.4%, and stable revenue growth. Core holding for quality allocation.",
+          "executed_price": 397.36,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "LLY",
+          "shares": 1,
+          "category": "quality",
+          "price": 1136.37,
+          "reasoning": "Outstanding performer with +19.8% gain, exceptional EPS growth +169.9%, and revenue growth +55.5%. Only -3.9% from 52w high indicates strong momentum.",
+          "executed_price": 1136.37,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "C",
+          "shares": 2,
+          "category": "value",
+          "price": 133.38,
+          "reasoning": "Value position with attractive PE 10.6, strong EPS growth +56.1%, and positive P&L +6.2%. Currently near 52w high indicates quality value stock.",
+          "executed_price": 133.38,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "V",
+          "shares": 1,
+          "category": "quality",
+          "price": 322.96,
+          "reasoning": "Quality payment processor with PE 21.7, solid EPS growth +35.5%, and positive momentum. Holds well in portfolio without rebalancing pressure.",
+          "executed_price": 322.96,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "USB",
+          "shares": 3,
+          "category": "value",
+          "price": 56.81,
+          "reasoning": "Value play with attractive PE 10.1 and positive P&L +2.6%. Maintains value allocation at target weight.",
+          "executed_price": 56.81,
+          "executed_shares": 0
+        },
+        {
+          "action": "BUY",
+          "ticker": "CRM",
+          "shares": 1,
+          "category": "growth",
+          "price": 170.92,
+          "reasoning": "Excellent growth candidate with lowest PE 11.0 among growth stocks, solid EPS growth +52.2%, and deeply discounted -38.3% from 52w high presents contrarian value.",
+          "executed_price": 170.92,
+          "executed_shares": 1
+        }
+      ],
+      "sp500_baseline": 9761.88
     }
   ],
   "allocations": {
@@ -2238,5 +2337,5 @@
     "cash": 0.1
   },
   "max_positions": 10,
-  "last_updated": "2026-06-09T23:20:57.985694+00:00"
+  "last_updated": "2026-06-10T23:39:23.726866+00:00"
 }
