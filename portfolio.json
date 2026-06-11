@@ -2328,6 +2328,97 @@
         }
       ],
       "sp500_baseline": 9761.88
+    },
+    {
+      "date": "2026-06-12",
+      "total_value": 9660.92,
+      "sp500_price": 7394.3,
+      "cash": 100.9,
+      "positions_count": 8,
+      "weekly_outlook": "Portfolio positioning remains strategically sound across growth-quality-value spectrum with strong fundamental support in core holdings. Market volatility presents tactical opportunities in quality names like Mastercard to enhance diversification without abandoning proven winners. Monitor macro conditions but maintain current growth/quality bias given superior earnings growth trajectories.",
+      "actions": [
+        {
+          "action": "HOLD",
+          "ticker": "NVDA",
+          "shares": 12,
+          "category": "growth",
+          "price": 204.87,
+          "reasoning": "Strong fundamentals with 85.2% revenue growth and 214.5% EPS growth justify hold despite -13.4% from highs; core growth position remains solid.",
+          "executed_price": 204.87,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "META",
+          "shares": 4,
+          "category": "growth",
+          "price": 568.43,
+          "reasoning": "Reasonable valuation at PE 15.7 with 62.4% EPS growth; position down 6.8% presents accumulation opportunity if fundamentals hold.",
+          "executed_price": 568.43,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "MSFT",
+          "shares": 7,
+          "category": "quality",
+          "price": 390.34,
+          "reasoning": "Consistent 18.3% revenue growth and 23.4% EPS growth at reasonable PE 20.2; hold core quality position despite recent drawdown.",
+          "executed_price": 390.34,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "LLY",
+          "shares": 1,
+          "category": "quality",
+          "price": 1160.95,
+          "reasoning": "Outstanding performer with +22.4% P&L, 169.9% EPS growth, and only -1.8% from highs suggests strong secular tailwinds in pharma/GLP-1.",
+          "executed_price": 1160.95,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "C",
+          "shares": 2,
+          "category": "value",
+          "price": 138.07,
+          "reasoning": "Value position performing well with 10.0% P&L and 56.1% EPS growth at PE 11.0; retain for value allocation.",
+          "executed_price": 138.07,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "V",
+          "shares": 1,
+          "category": "quality",
+          "price": 319.05,
+          "reasoning": "Visa maintains strong fundamentals with 35.5% EPS growth and reasonable PE 21.5; hold quality core position.",
+          "executed_price": 319.05,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "USB",
+          "shares": 3,
+          "category": "value",
+          "price": 57.63,
+          "reasoning": "Core value holding with low PE 10.2 and 14.8% EPS growth; maintains value allocation exposure.",
+          "executed_price": 57.63,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "CRM",
+          "shares": 1,
+          "category": "growth",
+          "price": 166.45,
+          "reasoning": "Attractive valuation at PE 10.7 with 52.2% EPS growth despite -39.9% from highs; deep value within growth category.",
+          "executed_price": 166.45,
+          "executed_shares": 0
+        }
+      ],
+      "sp500_baseline": 9932.9
     }
   ],
   "allocations": {
@@ -2337,5 +2428,5 @@
     "cash": 0.1
   },
   "max_positions": 10,
-  "last_updated": "2026-06-10T23:39:23.726866+00:00"
+  "last_updated": "2026-06-11T23:41:09.610177+00:00"
 }
