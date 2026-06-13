@@ -1,7 +1,7 @@
 {
   "initialized_at": "2026-05-10",
   "initial_capital": 10000.0,
-  "cash": 266.79,
+  "cash": 148.91,
   "positions": [
     {
       "ticker": "NVDA",
@@ -58,8 +58,8 @@
     },
     {
       "ticker": "USB",
-      "shares": 3,
-      "avg_cost": 55.35,
+      "shares": 5,
+      "avg_cost": 56.79,
       "category": "value",
       "bought_at": "2026-06-09",
       "reasoning": "Superior value at PE=9.8 with 14.8% EPS growth. Better risk/reward than BAC in banking sector rotation."
@@ -2502,6 +2502,87 @@
         }
       ],
       "sp500_baseline": 9982.82
+    },
+    {
+      "date": "2026-06-14",
+      "total_value": 9644.04,
+      "sp500_price": 7431.46,
+      "cash": 148.91,
+      "positions_count": 7,
+      "weekly_outlook": "Tech mega-caps showing resilience despite short-term drawdowns, supported by exceptional AI-driven earnings growth (NVDA, LLY). Value sector remains attractive with low PE multiples and positive EPS surprises, providing portfolio ballast. Recommend maintaining growth conviction while opportunistically adding quality names and value bargains, as macro backdrop favors earnings-driven outperformance.",
+      "actions": [
+        {
+          "action": "HOLD",
+          "ticker": "NVDA",
+          "shares": 12,
+          "category": "growth",
+          "price": 205.19,
+          "reasoning": "Exceptional EPS growth of +214.5% and revenue growth of +85.2% justify holding despite -4.6% loss. Valuation at PE=16.1 remains attractive for growth profile.",
+          "executed_price": 205.19,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "META",
+          "shares": 4,
+          "category": "growth",
+          "price": 566.98,
+          "reasoning": "Strong fundamentals with EPS growth +62.4% and PE=15.6 support position despite -7.0% drawdown. Position is sized appropriately for growth allocation.",
+          "executed_price": 566.98,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "MSFT",
+          "shares": 7,
+          "category": "quality",
+          "price": 390.74,
+          "reasoning": "Solid quality metrics with PE=20.2, consistent revenue and EPS growth. Recent drawdown presents accumulation opportunity but position already reflects quality weighting.",
+          "executed_price": 390.74,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "LLY",
+          "shares": 1,
+          "category": "quality",
+          "price": 1133.0,
+          "reasoning": "Outstanding performer with +19.5% gain, exceptional EPS growth of +169.9%, and strong revenue growth of +55.5%. Maintain position as star holding.",
+          "executed_price": 1133.0,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "C",
+          "shares": 2,
+          "category": "value",
+          "price": 139.83,
+          "reasoning": "Value play with attractive PE=11.2, strong EPS growth of +56.1%, and +11.4% gain. Solid fundamentals support holding in value allocation.",
+          "executed_price": 139.83,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "V",
+          "shares": 1,
+          "category": "quality",
+          "price": 322.39,
+          "reasoning": "Quality payment processor with steady growth metrics and PE=21.7. Position size aligns with quality allocation targets.",
+          "executed_price": 322.39,
+          "executed_shares": 0
+        },
+        {
+          "action": "BUY",
+          "ticker": "USB",
+          "shares": 2,
+          "category": "value",
+          "price": 58.94,
+          "reasoning": "Low PE=10.4, reasonable EPS growth of +14.8%, and +6.5% YTD gain. Adding 2 shares brings value allocation closer to 10% target while maintaining diversification.",
+          "executed_price": 58.94,
+          "executed_shares": 2
+        }
+      ],
+      "sp500_baseline": 9982.82
     }
   ],
   "allocations": {
@@ -2511,5 +2592,5 @@
     "cash": 0.1
   },
   "max_positions": 10,
-  "last_updated": "2026-06-12T23:23:36.742981+00:00"
+  "last_updated": "2026-06-13T23:11:44.016219+00:00"
 }
