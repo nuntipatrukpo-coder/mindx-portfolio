@@ -1,7 +1,7 @@
 {
   "initialized_at": "2026-05-10",
   "initial_capital": 10000.0,
-  "cash": 209.02,
+  "cash": 1390.51,
   "positions": [
     {
       "ticker": "NVDA",
@@ -62,14 +62,6 @@
       "category": "quality",
       "bought_at": "2026-06-15",
       "reasoning": "Quality position with stable PE=21.5, solid EPS growth +21.2%, and -18.6% from high suggests good entry; adds diversification to quality sleeve."
-    },
-    {
-      "ticker": "MSFT",
-      "shares": 3,
-      "avg_cost": 399.76,
-      "category": "quality",
-      "bought_at": "2026-06-16",
-      "reasoning": "Quality leader with balanced PE 20.7, strong EPS growth of +23.4%, and -28% from highs provides attractive entry point for quality allocation."
     },
     {
       "ticker": "GOOGL",
@@ -2818,6 +2810,117 @@
         }
       ],
       "sp500_baseline": 10147.82
+    },
+    {
+      "date": "2026-06-17",
+      "total_value": 9805.91,
+      "sp500_price": 7511.35,
+      "cash": 1390.51,
+      "positions_count": 9,
+      "weekly_outlook": "Markets favor quality over value as rate outlook stabilizes, but pockets of deep growth value (CRM at 41.6% drawdown with strong EPS growth) offer attractive entry points. AI-driven earnings growth (NVDA, LLY, GOOGL) continues supporting tech allocation while financial stocks remain modestly valued. Rotating out of underperforming MSFT to add high-upside growth catalyst CRM optimizes risk-adjusted returns.",
+      "actions": [
+        {
+          "action": "HOLD",
+          "ticker": "NVDA",
+          "shares": 12,
+          "category": "growth",
+          "price": 207.41,
+          "reasoning": "Strong fundamentals (85.2% RevGrowth, 214.5% EPS growth) with PE=16.3 attractive valuation. Only 12.3% below 52w high suggests consolidation rather than deterioration.",
+          "executed_price": 207.41,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "META",
+          "shares": 4,
+          "category": "growth",
+          "price": 600.21,
+          "reasoning": "Solid EPS growth of 62.4% with reasonable PE=16.6. AI monetization narrative remains intact despite 24.6% drawdown from highs.",
+          "executed_price": 600.21,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "GOOGL",
+          "shares": 1,
+          "category": "growth",
+          "price": 373.25,
+          "reasoning": "Strong EPS growth of 82.0% justifies premium valuation; maintaining core position despite elevated PE=25.8.",
+          "executed_price": 373.25,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "LLY",
+          "shares": 1,
+          "category": "quality",
+          "price": 1122.5,
+          "reasoning": "Outstanding 169.9% EPS growth and 18.4% portfolio gain; GLP-1 franchise and strong pipeline justify premium valuation despite PE=25.2.",
+          "executed_price": 1122.5,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "V",
+          "shares": 1,
+          "category": "quality",
+          "price": 333.12,
+          "reasoning": "Consistent payments processor with 35.5% EPS growth and 6.6% gain; maintaining core quality holding with stable fundamentals.",
+          "executed_price": 333.12,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "MA",
+          "shares": 2,
+          "category": "quality",
+          "price": 501.33,
+          "reasoning": "Complementary payments exposure to V with steady 21.2% EPS growth; benefits from digital transaction secular growth.",
+          "executed_price": 501.33,
+          "executed_shares": 0
+        },
+        {
+          "action": "SELL",
+          "ticker": "MSFT",
+          "shares": 3,
+          "category": "quality",
+          "price": 393.83,
+          "reasoning": "Underperforming at -1.5% with PE=20.4 and modest 23.4% EPS growth; 29.1% drawdown and quality anchor position can be reallocated to higher-conviction growth.",
+          "executed_price": 393.83,
+          "executed_shares": 3
+        },
+        {
+          "action": "HOLD",
+          "ticker": "C",
+          "shares": 2,
+          "category": "value",
+          "price": 142.99,
+          "reasoning": "Best-in-class value position with 13.9% gain, exceptional 56.1% EPS growth, and ultra-low PE=11.4; turnaround thesis intact.",
+          "executed_price": 142.99,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "USB",
+          "shares": 5,
+          "category": "value",
+          "price": 58.89,
+          "reasoning": "Defensive value holding with PE=10.4 and 3.7% gain; stable regional bank fundamentals provide portfolio ballast.",
+          "executed_price": 58.89,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "BAC",
+          "shares": 2,
+          "category": "value",
+          "price": 56.84,
+          "reasoning": "Maintains value allocation with PE=11.3, 1.7% gain, and near 52w highs; modest size allows focus on C's superior momentum.",
+          "executed_price": 56.84,
+          "executed_shares": 0
+        }
+      ],
+      "sp500_baseline": 10090.14
     }
   ],
   "allocations": {
@@ -2827,5 +2930,5 @@
     "cash": 0.1
   },
   "max_positions": 10,
-  "last_updated": "2026-06-15T23:50:30.216502+00:00"
+  "last_updated": "2026-06-16T23:27:00.553604+00:00"
 }
