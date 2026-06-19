@@ -3151,6 +3151,117 @@
         }
       ],
       "sp500_baseline": 10075.67
+    },
+    {
+      "date": "2026-06-20",
+      "total_value": 9710.98,
+      "sp500_price": 7500.58,
+      "cash": 678.01,
+      "positions_count": 10,
+      "weekly_outlook": "Portfolio is well-positioned across growth, quality, and value with strong fundamental support. META's 27.5% drawdown presents opportunity, but fundamentals remain solid at PE 15.9 with 62.4% EPS growth. Maintain current allocation as all positions support target weightings without requiring rebalancing.",
+      "actions": [
+        {
+          "action": "HOLD",
+          "ticker": "NVDA",
+          "shares": 12,
+          "category": "growth",
+          "price": 210.69,
+          "reasoning": "Exceptional EPS growth of +214.5% and revenue growth of +85.2% justify position despite -2.1% drawdown. Maintain core growth exposure.",
+          "executed_price": 210.69,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "META",
+          "shares": 4,
+          "category": "growth",
+          "price": 577.22,
+          "reasoning": "Strong fundamentals (PE 15.9, EPS growth +62.4%) offset current -27.5% drawdown from high. Position provides growth diversification.",
+          "executed_price": 577.22,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "LLY",
+          "shares": 1,
+          "category": "quality",
+          "price": 1098.57,
+          "reasoning": "Outstanding performer with +169.9% EPS growth and +15.8% P&L gain. Quality anchor with exceptional fundamentals.",
+          "executed_price": 1098.57,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "C",
+          "shares": 2,
+          "category": "value",
+          "price": 143.06,
+          "reasoning": "Strong value play with PE 11.4, +56.1% EPS growth, and +13.9% gain. Value allocation appropriately weighted.",
+          "executed_price": 143.06,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "V",
+          "shares": 1,
+          "category": "quality",
+          "price": 327.24,
+          "reasoning": "Stable quality holding with reasonable PE 22.0 and +35.5% EPS growth. Maintain payment processing exposure.",
+          "executed_price": 327.24,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "USB",
+          "shares": 5,
+          "category": "value",
+          "price": 58.14,
+          "reasoning": "Value anchor with lowest PE 10.3 and positive fundamentals. Provides value diversification alongside C and BAC.",
+          "executed_price": 58.14,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "MA",
+          "shares": 2,
+          "category": "quality",
+          "price": 489.79,
+          "reasoning": "Quality position near break-even with PE 21.5 and +21.2% EPS growth. Complements V in payment networks.",
+          "executed_price": 489.79,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "GOOGL",
+          "shares": 1,
+          "category": "growth",
+          "price": 368.03,
+          "reasoning": "Growth stock with +82.0% EPS growth despite higher PE 25.4. Diversifies growth exposure from AI-heavy NVDA.",
+          "executed_price": 368.03,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "BAC",
+          "shares": 2,
+          "category": "value",
+          "price": 56.2,
+          "reasoning": "Value stock with PE 11.1 and solid +24.4% EPS growth. Complements USB and C in value allocation.",
+          "executed_price": 56.2,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "AMZN",
+          "shares": 3,
+          "category": "growth",
+          "price": 244.39,
+          "reasoning": "Growth position with +74.8% EPS growth and +2.9% P&L. Provides e-commerce and cloud diversification.",
+          "executed_price": 244.39,
+          "executed_shares": 0
+        }
+      ],
+      "sp500_baseline": 10075.67
     }
   ],
   "allocations": {
@@ -3160,5 +3271,5 @@
     "cash": 0.1
   },
   "max_positions": 10,
-  "last_updated": "2026-06-18T23:49:21.215741+00:00"
+  "last_updated": "2026-06-19T23:03:31.570029+00:00"
 }
