@@ -3262,6 +3262,117 @@
         }
       ],
       "sp500_baseline": 10075.67
+    },
+    {
+      "date": "2026-06-21",
+      "total_value": 9716.23,
+      "sp500_price": 7420.1,
+      "cash": 678.01,
+      "positions_count": 10,
+      "weekly_outlook": "Tech and financial sectors showing resilience with strong earnings momentum across NVDA, META, and LLY providing conviction. Value banks (C, BAC, USB) offer compelling entry points with reasonable valuations and improving fundamentals. Portfolio is well-positioned across growth, quality, and value with 10 positions at target allocation; no rebalancing needed as drift remains within tolerance.",
+      "actions": [
+        {
+          "action": "HOLD",
+          "ticker": "NVDA",
+          "shares": 12,
+          "category": "growth",
+          "price": 210.69,
+          "reasoning": "Exceptional fundamentals (85.2% RevGrowth, 214.5% EPS growth) with low PE=16.6; slight pullback is healthy entry point, maintain position.",
+          "executed_price": 210.69,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "META",
+          "shares": 4,
+          "category": "growth",
+          "price": 577.22,
+          "reasoning": "Strong recovery potential with 62.4% EPS growth and PE=15.9; down 27.5% from highs presents value opportunity, retain for rebound.",
+          "executed_price": 577.22,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "LLY",
+          "shares": 1,
+          "category": "quality",
+          "price": 1098.57,
+          "reasoning": "Outstanding fundamentals (169.9% EPS growth, 55.5% RevGrowth) with +15.8% gain; top-tier biotech momentum supports holding.",
+          "executed_price": 1098.57,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "C",
+          "shares": 2,
+          "category": "value",
+          "price": 143.06,
+          "reasoning": "Strong value position with 56.1% EPS growth, low PE=11.4, and +13.9% gain; quality value play with improving fundamentals.",
+          "executed_price": 143.06,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "V",
+          "shares": 1,
+          "category": "quality",
+          "price": 327.24,
+          "reasoning": "Stable quality payment processor with 35.5% EPS growth and reasonable PE=22.0; core portfolio anchor.",
+          "executed_price": 327.24,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "USB",
+          "shares": 5,
+          "category": "value",
+          "price": 57.91,
+          "reasoning": "Solid value bank play with PE=10.3 and 14.8% EPS growth; maintains value allocation stability.",
+          "executed_price": 57.91,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "MA",
+          "shares": 2,
+          "category": "quality",
+          "price": 492.99,
+          "reasoning": "Quality fintech leader with 21.2% EPS growth and PE=21.5; core quality position in strong secular trend.",
+          "executed_price": 492.99,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "GOOGL",
+          "shares": 1,
+          "category": "growth",
+          "price": 368.03,
+          "reasoning": "Growth core holding with 82% EPS growth despite 21.8% RevGrowth; AI investments positioning for future.",
+          "executed_price": 368.03,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "BAC",
+          "shares": 2,
+          "category": "value",
+          "price": 56.2,
+          "reasoning": "Attractive value with PE=11.1 and 24.4% EPS growth; diversified banking exposure complements USB.",
+          "executed_price": 56.2,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "AMZN",
+          "shares": 3,
+          "category": "growth",
+          "price": 244.39,
+          "reasoning": "Solid growth with 74.8% EPS growth; cloud and retail momentum remains intact.",
+          "executed_price": 244.39,
+          "executed_shares": 0
+        }
+      ],
+      "sp500_baseline": 9967.56
     }
   ],
   "allocations": {
@@ -3271,5 +3382,5 @@
     "cash": 0.1
   },
   "max_positions": 10,
-  "last_updated": "2026-06-19T23:03:31.570029+00:00"
+  "last_updated": "2026-06-20T23:14:44.743638+00:00"
 }
