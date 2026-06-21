@@ -3373,6 +3373,107 @@
         }
       ],
       "sp500_baseline": 9967.56
+    },
+    {
+      "date": "2026-06-22",
+      "total_value": 9710.98,
+      "sp500_price": 7500.58,
+      "cash": 678.01,
+      "positions_count": 10,
+      "weekly_outlook": "Portfolio is well-positioned with strong fundamentals across core holdings. CRM entry adds growth exposure at depressed valuations while maintaining target allocations. Market showing rotation toward value and profitable growth, favoring current diversified positioning across mega-cap tech, quality payments/healthcare, and value financials.",
+      "actions": [
+        {
+          "action": "HOLD",
+          "ticker": "NVDA",
+          "shares": 12,
+          "category": "growth",
+          "price": 210.69,
+          "reasoning": "Exceptional EPS growth of +214.5% and revenue growth of +85.2% justify holding despite -2.1% P&L. Position within target allocation for growth.",
+          "executed_price": 210.69,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "META",
+          "shares": 4,
+          "category": "growth",
+          "price": 577.22,
+          "reasoning": "Strong fundamentals with PE=15.9 and EPS growth of +62.4% offset recent drawdown. Underweight vs growth target but holding for recovery potential.",
+          "executed_price": 577.22,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "LLY",
+          "shares": 1,
+          "category": "quality",
+          "price": 1098.57,
+          "reasoning": "Outstanding EPS growth of +169.9% with strong revenue growth of +55.5% justifies premium valuation. Quality position performing well with +15.8% P&L.",
+          "executed_price": 1098.57,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "C",
+          "shares": 2,
+          "category": "value",
+          "price": 143.06,
+          "reasoning": "Attractive valuation at PE=11.4 with solid EPS growth of +56.1% and +13.9% P&L. Core value holding near target allocation.",
+          "executed_price": 143.06,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "V",
+          "shares": 1,
+          "category": "quality",
+          "price": 327.24,
+          "reasoning": "Stable quality position with PE=22.0 and consistent EPS growth of +35.5%. Maintaining allocation within quality targets.",
+          "executed_price": 327.24,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "USB",
+          "shares": 5,
+          "category": "value",
+          "price": 58.14,
+          "reasoning": "Low PE of 10.3 provides value exposure with modest positive return. Maintaining balanced value allocation.",
+          "executed_price": 58.14,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "MA",
+          "shares": 2,
+          "category": "quality",
+          "price": 489.79,
+          "reasoning": "Quality fintech leader with PE=21.5 and EPS growth of +21.2%. Maintaining position despite flat near-term performance.",
+          "executed_price": 489.79,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "GOOGL",
+          "shares": 1,
+          "category": "growth",
+          "price": 368.03,
+          "reasoning": "Strong EPS growth of +82.0% with revenue growth of +21.8% supports holding despite higher valuation at PE=25.4.",
+          "executed_price": 368.03,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "BAC",
+          "shares": 2,
+          "category": "value",
+          "price": 56.2,
+          "reasoning": "Attractive PE of 11.1 with EPS growth of +24.4% provides value stability. Maintaining position near value target.",
+          "executed_price": 56.2,
+          "executed_shares": 0
+        }
+      ],
+      "sp500_baseline": 10075.67
     }
   ],
   "allocations": {
@@ -3382,5 +3483,5 @@
     "cash": 0.1
   },
   "max_positions": 10,
-  "last_updated": "2026-06-20T23:14:44.743638+00:00"
+  "last_updated": "2026-06-21T23:20:48.472001+00:00"
 }
