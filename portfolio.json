@@ -1,7 +1,7 @@
 {
   "initialized_at": "2026-05-10",
   "initial_capital": 10000.0,
-  "cash": 8.17,
+  "cash": 170.67,
   "positions": [
     {
       "ticker": "NVDA",
@@ -70,14 +70,6 @@
       "category": "growth",
       "bought_at": "2026-06-18",
       "reasoning": "Excellent EPS growth +74.8% at PE=24.1 with strong revenue growth +16.6%; growth bucket underweight and AMZN offers better value than TSLA or CRM."
-    },
-    {
-      "ticker": "CRM",
-      "shares": 1,
-      "avg_cost": 166.11,
-      "category": "growth",
-      "bought_at": "2026-07-04",
-      "reasoning": "Attractive PE=10.7 with EPS growth of +52.2% and significant -40% drawdown; AI integration in CRM platform driving reacceleration potential."
     }
   ],
   "history": [
@@ -4029,6 +4021,107 @@
         }
       ],
       "sp500_baseline": 10051.66
+    },
+    {
+      "date": "2026-07-10",
+      "total_value": 10085.16,
+      "sp500_price": 7543.64,
+      "cash": 170.67,
+      "positions_count": 8,
+      "weekly_outlook": "Tech earnings season shows strength in AI-driven growth with NVDA and META demonstrating exceptional EPS expansion, supporting growth allocation increases. Quality dividend-paying tech like MSFT provides attractive risk-adjusted entry with 30.8% drawdown from highs. Value financials remain stable with low multiples, offering portfolio ballast in uncertain macro environment.",
+      "actions": [
+        {
+          "action": "HOLD",
+          "ticker": "NVDA",
+          "shares": 17,
+          "category": "growth",
+          "price": 202.78,
+          "reasoning": "Exceptional EPS growth of +214.5% and revenue growth of +85.2% justify position; down 14.3% from 52w high presents entry opportunity but already adequately sized.",
+          "executed_price": 202.78,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "META",
+          "shares": 4,
+          "category": "growth",
+          "price": 631.48,
+          "reasoning": "Strong earnings growth at +62.4% with improving profitability; profitable position with +3.6% gains; maintain current allocation.",
+          "executed_price": 631.48,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "AMZN",
+          "shares": 3,
+          "category": "growth",
+          "price": 247.04,
+          "reasoning": "Solid EPS growth of +74.8% and down 11.3% from highs provides valuation support; current position appropriately sized.",
+          "executed_price": 247.04,
+          "executed_shares": 0
+        },
+        {
+          "action": "SELL",
+          "ticker": "CRM",
+          "shares": 1,
+          "category": "growth",
+          "price": 162.5,
+          "reasoning": "Severely down 40.7% from 52w high with weak revenue growth of only 13.3%; PE of 10.5 is deceptive given distress signal; rebalance capital to stronger growth candidates.",
+          "executed_price": 162.5,
+          "executed_shares": 1
+        },
+        {
+          "action": "HOLD",
+          "ticker": "LLY",
+          "shares": 1,
+          "category": "quality",
+          "price": 1216.95,
+          "reasoning": "Outstanding EPS growth of +169.9% with strong revenue growth of +55.5%; profitable +28.3% position; maintain as quality anchor.",
+          "executed_price": 1216.95,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "V",
+          "shares": 1,
+          "category": "quality",
+          "price": 348.2,
+          "reasoning": "Strong EPS growth of +35.5% with +11.5% gains; quality position well-maintained.",
+          "executed_price": 348.2,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "MA",
+          "shares": 2,
+          "category": "quality",
+          "price": 523.2,
+          "reasoning": "Consistent quality metrics with +6.8% gains; maintain position as quality diversifier.",
+          "executed_price": 523.2,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "C",
+          "shares": 2,
+          "category": "value",
+          "price": 139.57,
+          "reasoning": "Solid EPS growth of +56.1% with attractive PE of 11.1; +11.2% gains validate value positioning.",
+          "executed_price": 139.57,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "USB",
+          "shares": 5,
+          "category": "value",
+          "price": 61.9,
+          "reasoning": "Low PE of 10.9 with reasonable EPS growth of +14.8%; +9.0% gains demonstrate value quality; maintain position.",
+          "executed_price": 61.9,
+          "executed_shares": 0
+        }
+      ],
+      "sp500_baseline": 10133.51
     }
   ],
   "allocations": {
@@ -4038,5 +4131,5 @@
     "cash": 0.1
   },
   "max_positions": 10,
-  "last_updated": "2026-07-08T23:13:14.060919+00:00"
+  "last_updated": "2026-07-09T23:17:11.913432+00:00"
 }
