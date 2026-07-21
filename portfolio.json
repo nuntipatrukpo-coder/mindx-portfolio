@@ -1,7 +1,7 @@
 {
   "initialized_at": "2026-05-10",
   "initial_capital": 10000.0,
-  "cash": 1398.42,
+  "cash": 1486.16,
   "positions": [
     {
       "ticker": "NVDA",
@@ -77,14 +77,6 @@
       "category": "quality",
       "bought_at": "2026-07-19",
       "reasoning": "Strong PE of 20.3 with 23.4% EPS growth and 18.3% revenue growth; quality allocation below target at ~27%, need diversification away from overweight positions."
-    },
-    {
-      "ticker": "WFC",
-      "shares": 1,
-      "avg_cost": 87.51,
-      "category": "value",
-      "bought_at": "2026-07-19",
-      "reasoning": "Value allocation below target; WFC PE 11.1 with 25% EPS growth offers solid fundamentals; diversifies value bucket beyond financials concentration."
     }
   ],
   "history": [
@@ -5238,6 +5230,117 @@
         }
       ],
       "sp500_baseline": 9998.7
+    },
+    {
+      "date": "2026-07-22",
+      "total_value": 10202.69,
+      "sp500_price": 7509.2,
+      "cash": 1486.16,
+      "positions_count": 9,
+      "weekly_outlook": "AI sector strength continues driving mega-cap growth stocks; NVDA and META fundamentals remain compelling despite recent pullbacks. Financial sector valuations remain attractive with strong earnings growth, supporting value allocation. Adding GOOGL for diversified growth exposure and LLY for quality healthcare exposure balances portfolio across key secular trends.",
+      "actions": [
+        {
+          "action": "HOLD",
+          "ticker": "NVDA",
+          "shares": 15,
+          "category": "growth",
+          "price": 207.29,
+          "reasoning": "Exceptional EPS growth of +214.5% and revenue growth of +85.2% justify holding despite slight drawdown. Strong AI tailwinds support long-term thesis.",
+          "executed_price": 207.29,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "META",
+          "shares": 4,
+          "category": "growth",
+          "price": 643.81,
+          "reasoning": "Positive momentum with +5.6% gain; strong EPS growth of +62.4% and reasonable PE of 17.7 warrant retention for growth allocation.",
+          "executed_price": 643.81,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "AMZN",
+          "shares": 2,
+          "category": "growth",
+          "price": 247.55,
+          "reasoning": "Solid EPS growth of +74.8% provides growth exposure; current position is minimal and fundamentals support holding.",
+          "executed_price": 247.55,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "MA",
+          "shares": 2,
+          "category": "quality",
+          "price": 538.3,
+          "reasoning": "Quality stock with strong fundamentals and +9.9% gain; payment networks remain defensible with good growth metrics.",
+          "executed_price": 538.3,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "V",
+          "shares": 1,
+          "category": "quality",
+          "price": 355.82,
+          "reasoning": "Best performer with +13.9% gain and solid EPS growth of +35.5%; quality characteristics justify retention in quality bucket.",
+          "executed_price": 355.82,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "MSFT",
+          "shares": 1,
+          "category": "quality",
+          "price": 397.75,
+          "reasoning": "Quality anchor with consistent fundamentals; 28.4% below 52-week high provides valuation cushion for long-term hold.",
+          "executed_price": 397.75,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "C",
+          "shares": 2,
+          "category": "value",
+          "price": 132.84,
+          "reasoning": "Best value metric with PE=10.4 and strong EPS growth of +61.0%; financials remain attractive at current valuations.",
+          "executed_price": 132.84,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "USB",
+          "shares": 5,
+          "category": "value",
+          "price": 63.71,
+          "reasoning": "Value play with +12.2% gain; reasonable PE of 11.0 supports continued holding in value category.",
+          "executed_price": 63.71,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "BAC",
+          "shares": 2,
+          "category": "value",
+          "price": 61.22,
+          "reasoning": "Value stock with PE=11.6 and strong revenue growth of +21.4%; positions near 52-week highs offer stability.",
+          "executed_price": 61.22,
+          "executed_shares": 0
+        },
+        {
+          "action": "SELL",
+          "ticker": "WFC",
+          "shares": 1,
+          "category": "value",
+          "price": 87.74,
+          "reasoning": "Redundant value holding; trimming to consolidate positions and maintain exposure with higher-conviction value picks (C, USB, BAC).",
+          "executed_price": 87.74,
+          "executed_shares": 1
+        }
+      ],
+      "sp500_baseline": 10087.25
     }
   ],
   "allocations": {
@@ -5247,5 +5350,5 @@
     "cash": 0.1
   },
   "max_positions": 10,
-  "last_updated": "2026-07-20T23:04:38.369948+00:00"
+  "last_updated": "2026-07-21T23:01:42.979815+00:00"
 }
