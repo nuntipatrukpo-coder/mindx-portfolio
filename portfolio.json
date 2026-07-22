@@ -1,7 +1,7 @@
 {
   "initialized_at": "2026-05-10",
   "initial_capital": 10000.0,
-  "cash": 1486.16,
+  "cash": 508.14,
   "positions": [
     {
       "ticker": "NVDA",
@@ -71,12 +71,12 @@
       "reasoning": "Attractive PE of 11.7 with +36.0% EPS growth and +21.4% revenue growth; near 52w highs suggests stability. Diversifies value beyond banks already held."
     },
     {
-      "ticker": "MSFT",
-      "shares": 1,
-      "avg_cost": 393.82,
-      "category": "quality",
-      "bought_at": "2026-07-19",
-      "reasoning": "Strong PE of 20.3 with 23.4% EPS growth and 18.3% revenue growth; quality allocation below target at ~27%, need diversification away from overweight positions."
+      "ticker": "GOOGL",
+      "shares": 4,
+      "avg_cost": 342.09,
+      "category": "growth",
+      "bought_at": "2026-07-23",
+      "reasoning": "Outstanding EPS growth of +82.0% at PE=23.3 provides compelling growth exposure. Adds diversification to AI/tech theme at -16.3% from 52w high."
     }
   ],
   "history": [
@@ -5341,6 +5341,117 @@
         }
       ],
       "sp500_baseline": 10087.25
+    },
+    {
+      "date": "2026-07-23",
+      "total_value": 10183.25,
+      "sp500_price": 7498.96,
+      "cash": 508.14,
+      "positions_count": 9,
+      "weekly_outlook": "Tech earnings season driving AI/cloud strength with NVDA and META fundamentals exceptionally robust. Rebalancing focuses on adding GOOGL for AI exposure and UNH for quality diversification while maintaining underweight to weakness (MSFT). Strong earnings growth across holdings with focus on value and quality benefiting from stable rate environment.",
+      "actions": [
+        {
+          "action": "HOLD",
+          "ticker": "NVDA",
+          "shares": 15,
+          "category": "growth",
+          "price": 212.06,
+          "reasoning": "Exceptional EPS growth of +214.5% and revenue growth of +85.2% justify core position. Valuation attractive at PE=16.5 with only -10.3% from 52w high.",
+          "executed_price": 212.06,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "META",
+          "shares": 4,
+          "category": "growth",
+          "price": 627.17,
+          "reasoning": "Strong EPS growth of +62.4% and reasonable PE=16.9 support position despite -21.2% from 52w high. AI investment thesis remains intact.",
+          "executed_price": 627.17,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "AMZN",
+          "shares": 2,
+          "category": "growth",
+          "price": 244.85,
+          "reasoning": "Solid EPS growth of +74.8% and PE=24.7 reasonable for growth profile. Cloud services momentum supports long-term thesis.",
+          "executed_price": 244.85,
+          "executed_shares": 0
+        },
+        {
+          "action": "BUY",
+          "ticker": "GOOGL",
+          "shares": 6,
+          "category": "growth",
+          "price": 342.09,
+          "reasoning": "Outstanding EPS growth of +82.0% at PE=23.3 provides compelling growth exposure. Adds diversification to AI/tech theme at -16.3% from 52w high.",
+          "executed_price": 342.09,
+          "executed_shares": 4
+        },
+        {
+          "action": "HOLD",
+          "ticker": "V",
+          "shares": 1,
+          "category": "quality",
+          "price": 353.42,
+          "reasoning": "Strong EPS growth of +35.5% justifies quality classification. Near 52w high at -3.2% suggests healthy momentum.",
+          "executed_price": 353.42,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "MA",
+          "shares": 2,
+          "category": "quality",
+          "price": 531.98,
+          "reasoning": "Consistent EPS growth of +21.2% and stable PE=23.3 support quality holding. Payment processing secular growth intact.",
+          "executed_price": 531.98,
+          "executed_shares": 0
+        },
+        {
+          "action": "SELL",
+          "ticker": "MSFT",
+          "shares": 1,
+          "category": "quality",
+          "price": 390.34,
+          "reasoning": "Weakest position in portfolio at -0.9% P&L and -29.7% from 52w high. Reallocate capital to higher-conviction quality picks.",
+          "executed_price": 390.34,
+          "executed_shares": 1
+        },
+        {
+          "action": "HOLD",
+          "ticker": "C",
+          "shares": 2,
+          "category": "value",
+          "price": 132.25,
+          "reasoning": "Strong EPS growth of +61.0% at attractive PE=10.3 provides value exposure with upside. Only -10.6% from 52w high.",
+          "executed_price": 132.25,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "USB",
+          "shares": 5,
+          "category": "value",
+          "price": 64.47,
+          "reasoning": "Core value holding with PE=11.1 and EPS growth of +21.6%. Near 52w high at -0.6% suggests quality value holding.",
+          "executed_price": 64.47,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "BAC",
+          "shares": 2,
+          "category": "value",
+          "price": 61.62,
+          "reasoning": "Solid EPS growth of +36.0% at PE=11.7 with strong revenue growth of +21.4%. Financial sector fundamentals remain attractive.",
+          "executed_price": 61.62,
+          "executed_shares": 0
+        }
+      ],
+      "sp500_baseline": 10073.49
     }
   ],
   "allocations": {
@@ -5350,5 +5461,5 @@
     "cash": 0.1
   },
   "max_positions": 10,
-  "last_updated": "2026-07-21T23:01:42.979815+00:00"
+  "last_updated": "2026-07-22T23:09:29.958073+00:00"
 }
