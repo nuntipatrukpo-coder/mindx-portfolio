@@ -1,7 +1,7 @@
 {
   "initialized_at": "2026-05-10",
   "initial_capital": 10000.0,
-  "cash": 508.14,
+  "cash": 238.04,
   "positions": [
     {
       "ticker": "NVDA",
@@ -55,14 +55,6 @@
       "reasoning": "Quality position with stable PE=21.5, solid EPS growth +21.2%, and -18.6% from high suggests good entry; adds diversification to quality sleeve."
     },
     {
-      "ticker": "AMZN",
-      "shares": 2,
-      "avg_cost": 237.5,
-      "category": "growth",
-      "bought_at": "2026-06-18",
-      "reasoning": "Excellent EPS growth +74.8% at PE=24.1 with strong revenue growth +16.6%; growth bucket underweight and AMZN offers better value than TSLA or CRM."
-    },
-    {
       "ticker": "BAC",
       "shares": 2,
       "avg_cost": 61.27,
@@ -77,6 +69,22 @@
       "category": "growth",
       "bought_at": "2026-07-23",
       "reasoning": "Outstanding EPS growth of +82.0% at PE=23.3 provides compelling growth exposure. Adds diversification to AI/tech theme at -16.3% from 52w high."
+    },
+    {
+      "ticker": "CRM",
+      "shares": 2,
+      "avg_cost": 156.93,
+      "category": "growth",
+      "bought_at": "2026-07-24",
+      "reasoning": "Exceptional value at PE=10.1 with solid EPS growth of +52.2% and revenue growth of +13.3%; significantly down -42.7% from 52w high offers contrarian opportunity."
+    },
+    {
+      "ticker": "UNH",
+      "shares": 1,
+      "avg_cost": 423.56,
+      "category": "quality",
+      "bought_at": "2026-07-24",
+      "reasoning": "Exceptional EPS growth of +61.5% at reasonable PE=18.9 adds quality diversification; defensive healthcare exposure complements growth portfolio."
     }
   ],
   "history": [
@@ -5452,6 +5460,127 @@
         }
       ],
       "sp500_baseline": 10073.49
+    },
+    {
+      "date": "2026-07-24",
+      "total_value": 9917.17,
+      "sp500_price": 7408.3,
+      "cash": 238.04,
+      "positions_count": 10,
+      "weekly_outlook": "Tech mega-cap earnings season supports holding NVDA, META, and GOOGL despite recent drawdowns given exceptional earnings growth; the 15%+ dips present accumulation opportunities. Adding CRM provides value-priced growth exposure, while UNH diversifies into quality healthcare with strong EPS dynamics.",
+      "actions": [
+        {
+          "action": "HOLD",
+          "ticker": "NVDA",
+          "shares": 15,
+          "category": "growth",
+          "price": 208.76,
+          "reasoning": "Exceptional EPS growth of +214.5% with strong revenue growth of +85.2% justifies holding despite -11.7% from 52w high. Core growth driver at reasonable PE=16.2.",
+          "executed_price": 208.76,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "META",
+          "shares": 4,
+          "category": "growth",
+          "price": 606.1,
+          "reasoning": "Strong EPS growth of +62.4% and revenue growth of +33.1% at attractive PE=16.4 warrant holding despite -23.9% drawdown; good recovery potential.",
+          "executed_price": 606.1,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "GOOGL",
+          "shares": 4,
+          "category": "growth",
+          "price": 317.69,
+          "reasoning": "Exceptional EPS growth of +294.1% with solid revenue growth of +24.2% justifies holding despite current -7.1% P&L and -22.3% from high.",
+          "executed_price": 317.69,
+          "executed_shares": 0
+        },
+        {
+          "action": "SELL",
+          "ticker": "AMZN",
+          "shares": 2,
+          "category": "growth",
+          "price": 233.66,
+          "reasoning": "PE=23.6 is elevated relative to growth profile, and position is underperforming at -1.6% P&L. Redeploy capital to higher-conviction growth opportunities.",
+          "executed_price": 233.66,
+          "executed_shares": 2
+        },
+        {
+          "action": "BUY",
+          "ticker": "CRM",
+          "shares": 2,
+          "category": "growth",
+          "price": 156.93,
+          "reasoning": "Exceptional value at PE=10.1 with solid EPS growth of +52.2% and revenue growth of +13.3%; significantly down -42.7% from 52w high offers contrarian opportunity.",
+          "executed_price": 156.93,
+          "executed_shares": 2
+        },
+        {
+          "action": "HOLD",
+          "ticker": "V",
+          "shares": 1,
+          "category": "quality",
+          "price": 351.6,
+          "reasoning": "Strong performer with +12.5% P&L; revenue growth of +17.1% and EPS growth of +35.5% support quality positioning near all-time highs.",
+          "executed_price": 351.6,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "MA",
+          "shares": 2,
+          "category": "quality",
+          "price": 530.29,
+          "reasoning": "Quality holding with +8.2% P&L, strong EPS growth of +21.2%, and healthy revenue growth of +15.8%; balanced valuation at PE=23.3.",
+          "executed_price": 530.29,
+          "executed_shares": 0
+        },
+        {
+          "action": "BUY",
+          "ticker": "UNH",
+          "shares": 1,
+          "category": "quality",
+          "price": 423.56,
+          "reasoning": "Exceptional EPS growth of +61.5% at reasonable PE=18.9 adds quality diversification; defensive healthcare exposure complements growth portfolio.",
+          "executed_price": 423.56,
+          "executed_shares": 1
+        },
+        {
+          "action": "HOLD",
+          "ticker": "C",
+          "shares": 2,
+          "category": "value",
+          "price": 131.88,
+          "reasoning": "Best value play with PE=10.3, strong EPS growth of +61.0%, and +5.0% P&L; undervalued relative to earnings power.",
+          "executed_price": 131.88,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "USB",
+          "shares": 5,
+          "category": "value",
+          "price": 63.33,
+          "reasoning": "Solid value holding with +11.5% P&L, PE=11.0, and healthy EPS growth of +21.6%; near 52w high suggests stability.",
+          "executed_price": 63.33,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "BAC",
+          "shares": 2,
+          "category": "value",
+          "price": 61.28,
+          "reasoning": "Strong fundamentals with EPS growth of +36.0% and revenue growth of +21.4% at PE=11.7 despite flat P&L; value core holding.",
+          "executed_price": 61.28,
+          "executed_shares": 0
+        }
+      ],
+      "sp500_baseline": 9951.71
     }
   ],
   "allocations": {
@@ -5461,5 +5590,5 @@
     "cash": 0.1
   },
   "max_positions": 10,
-  "last_updated": "2026-07-22T23:09:29.958073+00:00"
+  "last_updated": "2026-07-23T23:01:05.616245+00:00"
 }
