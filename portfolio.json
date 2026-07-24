@@ -1,7 +1,7 @@
 {
   "initialized_at": "2026-05-10",
   "initial_capital": 10000.0,
-  "cash": 238.04,
+  "cash": 198.48,
   "positions": [
     {
       "ticker": "NVDA",
@@ -55,14 +55,6 @@
       "reasoning": "Quality position with stable PE=21.5, solid EPS growth +21.2%, and -18.6% from high suggests good entry; adds diversification to quality sleeve."
     },
     {
-      "ticker": "BAC",
-      "shares": 2,
-      "avg_cost": 61.27,
-      "category": "value",
-      "bought_at": "2026-07-18",
-      "reasoning": "Attractive PE of 11.7 with +36.0% EPS growth and +21.4% revenue growth; near 52w highs suggests stability. Diversifies value beyond banks already held."
-    },
-    {
       "ticker": "GOOGL",
       "shares": 4,
       "avg_cost": 342.09,
@@ -72,8 +64,8 @@
     },
     {
       "ticker": "CRM",
-      "shares": 2,
-      "avg_cost": 156.93,
+      "shares": 3,
+      "avg_cost": 159.17,
       "category": "growth",
       "bought_at": "2026-07-24",
       "reasoning": "Exceptional value at PE=10.1 with solid EPS growth of +52.2% and revenue growth of +13.3%; significantly down -42.7% from 52w high offers contrarian opportunity."
@@ -5581,6 +5573,117 @@
         }
       ],
       "sp500_baseline": 9951.71
+    },
+    {
+      "date": "2026-07-25",
+      "total_value": 9891.81,
+      "sp500_price": 7411.98,
+      "cash": 198.48,
+      "positions_count": 9,
+      "weekly_outlook": "Market remains focused on AI mega-cap fundamentals with NVDA, GOOGL, and META showing exceptional earnings growth despite elevated valuations. Tech pullbacks from 52w highs present attractive entry points for quality names like MSFT. Value rotation into financials (USB, C) provides portfolio stability while growth allocation builds on AI momentum.",
+      "actions": [
+        {
+          "action": "HOLD",
+          "ticker": "NVDA",
+          "shares": 15,
+          "category": "growth",
+          "price": 206.84,
+          "reasoning": "Exceptional EPS growth of +214.5% and revenue growth of +85.2% justify position. Currently -12.6% from 52w high represents healthy pullback; maintain exposure.",
+          "executed_price": 206.84,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "META",
+          "shares": 4,
+          "category": "growth",
+          "price": 595.19,
+          "reasoning": "Strong EPS growth of +62.4% with attractive PE of 16.1 supports position despite -25.3% from high. AI momentum and cost discipline catalysts remain intact.",
+          "executed_price": 595.19,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "GOOGL",
+          "shares": 4,
+          "category": "growth",
+          "price": 319.74,
+          "reasoning": "Exceptional EPS growth of +294.1% offsets valuation concerns. Position is down -21.7% from high, providing reasonable entry valuation for continued AI upside.",
+          "executed_price": 319.74,
+          "executed_shares": 0
+        },
+        {
+          "action": "BUY",
+          "ticker": "CRM",
+          "shares": 3,
+          "category": "growth",
+          "price": 163.66,
+          "reasoning": "Lowest PE (10.6) among growth peers with solid EPS growth of +52.2%. Down -40.3% from high presents compelling value; increase position for growth allocation.",
+          "executed_price": 163.66,
+          "executed_shares": 1
+        },
+        {
+          "action": "HOLD",
+          "ticker": "V",
+          "shares": 1,
+          "category": "quality",
+          "price": 355.74,
+          "reasoning": "Strong fundamentals with +35.5% EPS growth and +13.9% position return. Maintain for quality exposure despite higher PE.",
+          "executed_price": 355.74,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "MA",
+          "shares": 2,
+          "category": "quality",
+          "price": 539.66,
+          "reasoning": "Solid EPS growth of +21.2% and +10.1% position return. Maintain core quality holding with consistent payment network growth.",
+          "executed_price": 539.66,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "UNH",
+          "shares": 1,
+          "category": "quality",
+          "price": 420.74,
+          "reasoning": "Exceptional EPS growth of +61.5% despite low revenue growth. Maintain defensive quality position with healthcare tailwinds.",
+          "executed_price": 420.74,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "C",
+          "shares": 2,
+          "category": "value",
+          "price": 132.19,
+          "reasoning": "Lowest PE (10.3) in value category with strong EPS growth of +61.0%. Up +5.3% on position; maintain for value allocation.",
+          "executed_price": 132.19,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "USB",
+          "shares": 5,
+          "category": "value",
+          "price": 63.97,
+          "reasoning": "Attractive PE of 11.1 with +12.6% position gain and positive earnings growth. Core value holding near 52w high indicates market confidence.",
+          "executed_price": 63.97,
+          "executed_shares": 0
+        },
+        {
+          "action": "SELL",
+          "ticker": "BAC",
+          "shares": 2,
+          "category": "value",
+          "price": 62.05,
+          "reasoning": "Minimal position gain (+1.3%) and lower growth metrics relative to USB and C. Redirect capital to higher-conviction growth and quality names.",
+          "executed_price": 62.05,
+          "executed_shares": 2
+        }
+      ],
+      "sp500_baseline": 9956.65
     }
   ],
   "allocations": {
@@ -5590,5 +5693,5 @@
     "cash": 0.1
   },
   "max_positions": 10,
-  "last_updated": "2026-07-23T23:01:05.616245+00:00"
+  "last_updated": "2026-07-24T23:05:23.518481+00:00"
 }
