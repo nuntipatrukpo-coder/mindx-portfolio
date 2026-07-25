@@ -5684,6 +5684,107 @@
         }
       ],
       "sp500_baseline": 9956.65
+    },
+    {
+      "date": "2026-07-26",
+      "total_value": 9894.63,
+      "sp500_price": 7411.98,
+      "cash": 198.48,
+      "positions_count": 9,
+      "weekly_outlook": "Tech mega-caps showing resilience with exceptional earnings growth despite valuation pressure; quality mega-cap weakness (GOOGL, META down 20%+ YTD) presents tactical accumulation opportunity for long-term holders. Financial sector (banks, payments) demonstrating strength with solid EPS growth, supporting continued allocation to value and quality cohorts.",
+      "actions": [
+        {
+          "action": "HOLD",
+          "ticker": "NVDA",
+          "shares": 15,
+          "category": "growth",
+          "price": 206.84,
+          "reasoning": "Exceptional EPS growth of +214.5% and revenue growth of +85.2% justify position; at -12.6% from 52w high presents upside opportunity. Maintain core growth exposure.",
+          "executed_price": 206.84,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "META",
+          "shares": 4,
+          "category": "growth",
+          "price": 595.19,
+          "reasoning": "Strong fundamentals with +62.4% EPS growth and +33.1% revenue growth; currently -25.3% from high presents accumulation opportunity. Hold for mean reversion.",
+          "executed_price": 595.19,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "GOOGL",
+          "shares": 4,
+          "category": "growth",
+          "price": 319.74,
+          "reasoning": "Exceptional +294% EPS growth despite -6.5% P&L; temporary weakness at -21.7% from high creates buying opportunity for long-term growth exposure.",
+          "executed_price": 319.74,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "V",
+          "shares": 1,
+          "category": "quality",
+          "price": 355.74,
+          "reasoning": "Strong performer with +13.9% P&L and solid +35.5% EPS growth; near 52w high (-2.6%) indicates market confidence. Maintain position.",
+          "executed_price": 355.74,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "MA",
+          "shares": 2,
+          "category": "quality",
+          "price": 539.66,
+          "reasoning": "Quality payment processor with +10.1% P&L and consistent +21.2% EPS growth; well-positioned in growing digital payments sector.",
+          "executed_price": 539.66,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "UNH",
+          "shares": 1,
+          "category": "quality",
+          "price": 423.56,
+          "reasoning": "Excellent +61.5% EPS growth and reasonable PE=18.8 offset by flat revenue; maintain healthcare quality exposure.",
+          "executed_price": 423.56,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "C",
+          "shares": 2,
+          "category": "value",
+          "price": 132.19,
+          "reasoning": "+5.3% P&L with strong +61% EPS growth and low PE=10.3 makes this undervalued; financial sector strength supports position.",
+          "executed_price": 132.19,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "USB",
+          "shares": 5,
+          "category": "value",
+          "price": 63.97,
+          "reasoning": "+12.6% P&L with PE=11.1 and modest but solid fundamentals; near 52w high (-1.3%) confirms market recognition of value recovery.",
+          "executed_price": 63.97,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "CRM",
+          "shares": 3,
+          "category": "growth",
+          "price": 163.66,
+          "reasoning": "Attractive PE=10.6 with +52.2% EPS growth significantly undervalues SaaS exposure; -40.3% from high presents multi-year recovery opportunity.",
+          "executed_price": 163.66,
+          "executed_shares": 0
+        }
+      ],
+      "sp500_baseline": 9956.65
     }
   ],
   "allocations": {
@@ -5693,5 +5794,5 @@
     "cash": 0.1
   },
   "max_positions": 10,
-  "last_updated": "2026-07-24T23:05:23.518481+00:00"
+  "last_updated": "2026-07-25T22:59:04.567303+00:00"
 }
