@@ -1,7 +1,7 @@
 {
   "initialized_at": "2026-05-10",
   "initial_capital": 10000.0,
-  "cash": 198.48,
+  "cash": 24.88,
   "positions": [
     {
       "ticker": "NVDA",
@@ -64,8 +64,8 @@
     },
     {
       "ticker": "CRM",
-      "shares": 3,
-      "avg_cost": 159.17,
+      "shares": 4,
+      "avg_cost": 162.78,
       "category": "growth",
       "bought_at": "2026-07-24",
       "reasoning": "Exceptional value at PE=10.1 with solid EPS growth of +52.2% and revenue growth of +13.3%; significantly down -42.7% from 52w high offers contrarian opportunity."
@@ -5886,6 +5886,107 @@
         }
       ],
       "sp500_baseline": 9956.65
+    },
+    {
+      "date": "2026-07-28",
+      "total_value": 9815.89,
+      "sp500_price": 7413.18,
+      "cash": 24.88,
+      "positions_count": 9,
+      "weekly_outlook": "Tech mega-caps showing resilience with exceptional earnings growth (GOOGL +294% EPS, NVDA +214.5% EPS) despite valuations pullbacks, suggesting market repricing AI-driven growth favorably. Financial sector values (C, USB) demonstrate earnings strength with low multiples, supporting balanced approach. Rebalance toward quality (MSFT add) and continued growth exposure (CRM add) to capture undervalued opportunities while maintaining diversification.",
+      "actions": [
+        {
+          "action": "HOLD",
+          "ticker": "NVDA",
+          "shares": 15,
+          "category": "growth",
+          "price": 196.51,
+          "reasoning": "Strong fundamentals (EPS_growth +214.5%, RevGrowth +85.2%) with reasonable PE=15.3; down 16.9% from high presents accumulation opportunity but maintain current position.",
+          "executed_price": 196.51,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "META",
+          "shares": 4,
+          "category": "growth",
+          "price": 593.87,
+          "reasoning": "Solid EPS growth +62.4% and RevGrowth +33.1% with low PE=16.0; down 25.4% from high but fundamentals support valuation.",
+          "executed_price": 593.87,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "GOOGL",
+          "shares": 4,
+          "category": "growth",
+          "price": 326.56,
+          "reasoning": "Exceptional EPS_growth +294.0% justifies position despite PE=22.2; down 20% from high presents value.",
+          "executed_price": 326.56,
+          "executed_shares": 0
+        },
+        {
+          "action": "BUY",
+          "ticker": "CRM",
+          "shares": 2,
+          "category": "growth",
+          "price": 173.6,
+          "reasoning": "Lowest PE among growth candidates (11.2) with solid EPS_growth +52.2%; down 36.6% from high offers strong risk/reward and adds diversification.",
+          "executed_price": 173.6,
+          "executed_shares": 1
+        },
+        {
+          "action": "HOLD",
+          "ticker": "V",
+          "shares": 1,
+          "category": "quality",
+          "price": 362.53,
+          "reasoning": "Strong performer +16% with solid EPS_growth +35.5%; maintain position in quality allocation.",
+          "executed_price": 362.53,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "MA",
+          "shares": 2,
+          "category": "quality",
+          "price": 551.71,
+          "reasoning": "Best quality performer +12.6% with balanced EPS_growth +21.2%; maintain position.",
+          "executed_price": 551.71,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "UNH",
+          "shares": 1,
+          "category": "quality",
+          "price": 417.64,
+          "reasoning": "Strong EPS_growth +61.5% with PE=18.6; maintain despite minimal revenue growth.",
+          "executed_price": 417.64,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "C",
+          "shares": 2,
+          "category": "value",
+          "price": 133.1,
+          "reasoning": "Best value performer +6% with excellent EPS_growth +61.0% and lowest PE=10.4; maintain position.",
+          "executed_price": 133.1,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "USB",
+          "shares": 5,
+          "category": "value",
+          "price": 63.49,
+          "reasoning": "Strong +11.8% performer with reasonable PE=11.0 and balanced fundamentals; maintain value allocation.",
+          "executed_price": 63.49,
+          "executed_shares": 0
+        }
+      ],
+      "sp500_baseline": 9958.26
     }
   ],
   "allocations": {
@@ -5895,5 +5996,5 @@
     "cash": 0.1
   },
   "max_positions": 10,
-  "last_updated": "2026-07-26T23:02:21.422011+00:00"
+  "last_updated": "2026-07-27T23:08:08.113659+00:00"
 }
