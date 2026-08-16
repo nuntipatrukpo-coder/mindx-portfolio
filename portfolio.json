@@ -8042,6 +8042,117 @@
         }
       ],
       "sp500_baseline": 10458.76
+    },
+    {
+      "date": "2026-08-17",
+      "total_value": 10383.62,
+      "sp500_price": 7785.76,
+      "cash": 68.59,
+      "positions_count": 10,
+      "weekly_outlook": "Technology leaders NVDA, GOOGL, and CRM continue demonstrating exceptional earnings growth, supporting growth allocation expansion. Quality names show steady performance with reasonable valuations, while value stocks benefit from strong cyclical fundamentals in financials and energy. Adding META at current valuation provides attractive exposure to growth with improved risk/reward profile.",
+      "actions": [
+        {
+          "action": "HOLD",
+          "ticker": "NVDA",
+          "shares": 15,
+          "category": "growth",
+          "price": 225.16,
+          "reasoning": "Strong fundamentals with 85.2% revenue growth and 214.5% EPS growth; position well-performing near 52w high. Growth allocation at 32.5% is within acceptable range.",
+          "executed_price": 225.16,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "GOOGL",
+          "shares": 4,
+          "category": "growth",
+          "price": 345.9,
+          "reasoning": "Exceptional EPS growth of 294% justifies holding despite modest 1.1% P&L; strong fundamentals support long-term position.",
+          "executed_price": 345.9,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "CRM",
+          "shares": 4,
+          "category": "growth",
+          "price": 196.21,
+          "reasoning": "Outstanding 20.5% P&L with 52.2% EPS growth and attractive PE of 12.6; best growth risk/reward in portfolio.",
+          "executed_price": 196.21,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "V",
+          "shares": 1,
+          "category": "quality",
+          "price": 364.15,
+          "reasoning": "Strong 16.6% P&L with solid fundamentals; quality allocation near target at 30.2%.",
+          "executed_price": 364.15,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "MA",
+          "shares": 2,
+          "category": "quality",
+          "price": 569.29,
+          "reasoning": "Excellent 16.2% P&L with 22.1% EPS growth; maintains quality positioning within target allocation.",
+          "executed_price": 569.29,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "MSFT",
+          "shares": 3,
+          "category": "quality",
+          "price": 495.4,
+          "reasoning": "Solid 17.7% revenue growth and 31.7% EPS growth with reasonable PE of 21.0; quality stalwart.",
+          "executed_price": 495.4,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "UNH",
+          "shares": 1,
+          "category": "quality",
+          "price": 401.73,
+          "reasoning": "Exceptional 61.5% EPS growth despite low revenue growth; PE of 17.9 is reasonable for quality category.",
+          "executed_price": 401.73,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "USB",
+          "shares": 5,
+          "category": "value",
+          "price": 65.42,
+          "reasoning": "Strong 15.2% P&L with 21.6% EPS growth and attractive PE of 11.3; value position well-positioned.",
+          "executed_price": 65.42,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "BAC",
+          "shares": 7,
+          "category": "value",
+          "price": 64.49,
+          "reasoning": "Solid fundamentals with 34.1% EPS growth and PE of 12.2; maintains value allocation balance.",
+          "executed_price": 64.49,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "CVX",
+          "shares": 3,
+          "category": "value",
+          "price": 200.0,
+          "reasoning": "Exceptional 321.9% EPS growth and 53.5% revenue growth with 7.2% P&L; strong value play in energy sector.",
+          "executed_price": 200.0,
+          "executed_shares": 0
+        }
+      ],
+      "sp500_baseline": 10458.76
     }
   ],
   "allocations": {
@@ -8051,5 +8162,5 @@
     "cash": 0.1
   },
   "max_positions": 10,
-  "last_updated": "2026-08-15T22:26:54.858852+00:00"
+  "last_updated": "2026-08-16T22:26:30.779745+00:00"
 }
