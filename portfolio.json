@@ -1,7 +1,7 @@
 {
   "initialized_at": "2026-05-10",
   "initial_capital": 10000.0,
-  "cash": 45.66,
+  "cash": 82.54,
   "positions": [
     {
       "ticker": "NVDA",
@@ -61,20 +61,20 @@
       "reasoning": "Strong quality fundamental (PE=20.0, RevGrowth=+17.7%, EPS_growth=+31.7%) with -16.1% from 52w high providing entry opportunity. Rebalances quality allocation closer to 30% target."
     },
     {
-      "ticker": "BAC",
-      "shares": 7,
-      "avg_cost": 61.95,
-      "category": "value",
-      "bought_at": "2026-08-02",
-      "reasoning": "Attractive value play with PE=11.7, strong EPS_growth=+36.0%, and RevGrowth=+21.4%. Builds value allocation from current underweight toward 10% target."
-    },
-    {
       "ticker": "CVX",
       "shares": 5,
       "avg_cost": 194.24,
       "category": "value",
       "bought_at": "2026-08-09",
       "reasoning": "Exceptional value with 321.9% EPS growth and 53.5% revenue growth at PE=14.4; strong energy sector catalysts."
+    },
+    {
+      "ticker": "C",
+      "shares": 3,
+      "avg_cost": 131.65,
+      "category": "value",
+      "bought_at": "2026-08-22",
+      "reasoning": "Lowest value PE (10.2) with strong EPS growth (+61%) and reasonable revenue growth (+15.5%). Fill value allocation gap from BAC sale."
     }
   ],
   "history": [
@@ -8549,6 +8549,117 @@
         }
       ],
       "sp500_baseline": 10264.51
+    },
+    {
+      "date": "2026-08-22",
+      "total_value": 10232.87,
+      "sp500_price": 7674.37,
+      "cash": 82.54,
+      "positions_count": 9,
+      "weekly_outlook": "Tech mega-caps (NVDA, GOOGL, MSFT) maintain momentum with exceptional earnings growth, while META presents a compelling entry point at valuation lows. Value sector (particularly energy and financials) shows hidden strength with strong EPS growth offsetting slow revenue; rotating selective capital into C and UNH adds defensive quality exposure while maintaining growth thesis.",
+      "actions": [
+        {
+          "action": "HOLD",
+          "ticker": "NVDA",
+          "shares": 15,
+          "category": "growth",
+          "price": 214.72,
+          "reasoning": "Strong fundamentals (PE=16.5, RevGrowth=+85.2%, EPS=+214.5%) and only -9.2% from 52w high. Core growth position performing well.",
+          "executed_price": 214.72,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "GOOGL",
+          "shares": 4,
+          "category": "growth",
+          "price": 344.82,
+          "reasoning": "Exceptional EPS growth (+294%) with reasonable valuation (PE=23.3). Despite -15.6% from high, fundamentals justify holding.",
+          "executed_price": 344.82,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "CRM",
+          "shares": 4,
+          "category": "growth",
+          "price": 209.17,
+          "reasoning": "Best risk-adjusted growth pick: low PE (13.5), strong EPS growth (+52.2%), and +28.5% YTD gains show momentum.",
+          "executed_price": 209.17,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "V",
+          "shares": 1,
+          "category": "quality",
+          "price": 371.04,
+          "reasoning": "Quality dividend player with +18.8% gains and near 52w high (-0.8%). Stable fundamentals warrant holding.",
+          "executed_price": 371.04,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "MA",
+          "shares": 2,
+          "category": "quality",
+          "price": 580.63,
+          "reasoning": "Strong quality position with +18.5% gains, solid EPS growth (+22.1%), and reasonable distance from high (-3.5%).",
+          "executed_price": 580.63,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "MSFT",
+          "shares": 3,
+          "category": "quality",
+          "price": 483.24,
+          "reasoning": "Core quality holding with solid fundamentals (PE=20.5, EPS=+31.7%, RevGrowth=+17.7%). Maintain position.",
+          "executed_price": 483.24,
+          "executed_shares": 0
+        },
+        {
+          "action": "SELL",
+          "ticker": "BAC",
+          "shares": 7,
+          "category": "value",
+          "price": 61.69,
+          "reasoning": "Weakest performer (-0.4% P&L) with no upside catalyst; reallocate value capital to higher-quality value plays.",
+          "executed_price": 61.69,
+          "executed_shares": 7
+        },
+        {
+          "action": "HOLD",
+          "ticker": "USB",
+          "shares": 5,
+          "category": "value",
+          "price": 62.05,
+          "reasoning": "Solid value position with +9.3% gains, low PE (10.7), and reasonable EPS growth (+21.6%).",
+          "executed_price": 62.05,
+          "executed_shares": 0
+        },
+        {
+          "action": "HOLD",
+          "ticker": "CVX",
+          "shares": 5,
+          "category": "value",
+          "price": 205.27,
+          "reasoning": "Exceptional value pick with outstanding EPS growth (+321.9%), strong revenue growth (+53.5%), and +5.7% gains.",
+          "executed_price": 205.27,
+          "executed_shares": 0
+        },
+        {
+          "action": "BUY",
+          "ticker": "C",
+          "shares": 3,
+          "category": "value",
+          "price": 131.65,
+          "reasoning": "Lowest value PE (10.2) with strong EPS growth (+61%) and reasonable revenue growth (+15.5%). Fill value allocation gap from BAC sale.",
+          "executed_price": 131.65,
+          "executed_shares": 3
+        }
+      ],
+      "sp500_baseline": 10309.12
     }
   ],
   "allocations": {
@@ -8558,5 +8669,5 @@
     "cash": 0.1
   },
   "max_positions": 10,
-  "last_updated": "2026-08-20T22:32:40.820175+00:00"
+  "last_updated": "2026-08-21T22:30:05.565211+00:00"
 }
